@@ -9,7 +9,7 @@ interface SeoProps {
   noindex?: boolean;
 }
 
-const SITE_ORIGIN = 'https://Meridianinfotechsolutions.in/';
+const SITE_ORIGIN = 'https://Meridianinfotechsolutions.in';
 
 function renderJsonLd(data: Record<string, unknown> | Record<string, unknown>[]) {
   const script = document.createElement('script');
