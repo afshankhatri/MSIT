@@ -1,6 +1,6 @@
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Clock, ArrowRight, Check, Star, Navigation } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, ArrowRight, Star, Navigation } from 'lucide-react';
 import { Seo } from '@/components/Seo';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { FaqAccordion } from '@/components/FaqAccordion';

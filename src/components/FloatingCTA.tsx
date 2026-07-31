@@ -1,23 +1,15 @@
-import { MessageCircle, Phone } from 'lucide-react';
-import { motion } from 'framer-motion';
+import {  Phone } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
 import { companyInfo } from '@/data/company';
 
 export function FloatingCTA() {
   return (
     <>
-      {/* Call CTA — Bottom Left */}
-      <motion.a
+      {/* Call CTA - Bottom Left */}
+      <a
         href={`tel:${companyInfo.phone}`}
         aria-label={`Call ${companyInfo.name}`}
-        initial={{ opacity: 0, scale: 0.8, y: 20 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{
-          duration: 0.4,
-          delay: 0.8,
-          ease: 'easeOut',
-        }}
-        whileHover={{ scale: 1.08 }}
-        whileTap={{ scale: 0.94 }}
+        style={{ animationDelay: '0.8s' }}
         className="
           group
           fixed
@@ -32,12 +24,16 @@ export function FloatingCTA() {
           rounded-full
           bg-brand-500
           text-white
+          opacity-0
           shadow-xl
           shadow-brand-500/25
-          transition-shadow
+          transition-[box-shadow,transform]
           duration-300
+          animate-fade-up
+          hover:scale-[1.08]
           hover:shadow-2xl
           hover:shadow-brand-500/40
+          active:scale-[0.94]
           sm:bottom-6
           sm:left-6
         "
@@ -72,23 +68,15 @@ export function FloatingCTA() {
         >
           Call us
         </span>
-      </motion.a>
+      </a>
 
-      {/* WhatsApp CTA — Bottom Right */}
-      <motion.a
+      {/* WhatsApp CTA - Bottom Right */}
+      <a
         href={companyInfo.whatsapp}
         target="_blank"
         rel="noopener noreferrer"
         aria-label={`Chat with ${companyInfo.name} on WhatsApp`}
-        initial={{ opacity: 0, scale: 0.8, y: 20 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        transition={{
-          duration: 0.4,
-          delay: 0.95,
-          ease: 'easeOut',
-        }}
-        whileHover={{ scale: 1.08 }}
-        whileTap={{ scale: 0.94 }}
+        style={{ animationDelay: '0.95s' }}
         className="
           group
           fixed
@@ -103,18 +91,22 @@ export function FloatingCTA() {
           rounded-full
           bg-green-500
           text-white
+          opacity-0
           shadow-xl
           shadow-green-500/25
-          transition-shadow
+          transition-[box-shadow,transform]
           duration-300
+          animate-fade-up
+          hover:scale-[1.08]
           hover:shadow-2xl
           hover:shadow-green-500/40
+          active:scale-[0.94]
           sm:bottom-6
           sm:right-6
         "
       >
         <div className="absolute inset-0 -z-10 animate-ping rounded-full bg-green-500/30" />
-        <MessageCircle className="h-6 w-6" />
+        <FaWhatsapp className="h-6 w-6" />
 
         {/* Desktop Tooltip */}
         <span
@@ -143,7 +135,7 @@ export function FloatingCTA() {
         >
           Chat with us
         </span>
-      </motion.a>
+      </a>
     </>
   );
 }

@@ -43,7 +43,7 @@ export const locations: LocationData[] = [
     email: 'info@meridianinfotechsolutions.in',
     hours: 'Mon–Sun: 9:00 AM – 9:00 PM ',
     mapEmbed:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.581672923444!2d72.83199692497669!3d18.95730785568846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf92a6e711c1%3A0xa57f1dcb575b432c!2sPETU%20pure%20edible%20tasty%20and%20unique!5e1!3m2!1sen!2sin!4v1785348093034!5m2!1sen!2sin',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1886.6684886508688!2d72.83416793880511!3d18.960719632233328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf081f036933%3A0x795dd73dbc7a0b1d!2sMeridian%20Infotech%20Solutions!5e0!3m2!1sen!2sin!4v1785439109812!5m2!1sen!2sin',
     mapLink: 'https://www.google.com/maps?q=Central+Avenue+City+Centre',
     nearbyAreas: ['Dongri', 'Marine Drive', 'Fort Area', 'Nariman Point', 'Churchgate','colaba','CSMT','Mohammed-Ali-Road'],
     services: [

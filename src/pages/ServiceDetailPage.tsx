@@ -1,6 +1,6 @@
 import { Link, useParams, Navigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Check, ArrowRight, Phone, MessageCircle, Wrench, Users, AlertCircle, Sparkles } from 'lucide-react';
+import { Check, ArrowRight, Phone, Users, AlertCircle, Sparkles } from 'lucide-react';
 import { Seo } from '@/components/Seo';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { CtaSection } from '@/components/CtaSection';

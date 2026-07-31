@@ -25,7 +25,7 @@ export default function TestimonialsPage() {
     publisher: {
       '@type': 'Organization',
       name: 'Google',
-    },
+    }, 
   };
 
   return (
@@ -47,7 +47,7 @@ export default function TestimonialsPage() {
         <div className="flex flex-wrap items-center gap-4">
           <div className="flex items-center gap-3 rounded-2xl border border-ink-200 dark:border-ink-800 bg-white dark:bg-ink-900 px-5 py-3 shadow-sm">
             <div className="flex">
-              {Array.from({ length: 5 }).map((_, i) => (
+              {Array.from({ length: 4.5 }).map((_, i) => (
                 <Star key={i} className="h-5 w-5 fill-accent-400 text-accent-400" />
               ))}
             </div>

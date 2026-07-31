@@ -1,9 +1,9 @@
-import { Suspense, useEffect } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import { Navbar } from './Navbar';
-import { Footer } from './Footer';
 import { FloatingCTA } from '@/components/FloatingCTA';
 
+const Footer = lazy(() => import('./Footer').then((module) => ({ default: module.Footer })));
 
 export function Layout() {
   const { pathname } = useLocation();
@@ -27,7 +27,9 @@ export function Layout() {
         </Suspense>
       </main>
       <FloatingCTA />
-      <Footer />
+      <Suspense fallback={null}>
+        <Footer />
+      </Suspense>
     </div>
   );
 }

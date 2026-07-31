@@ -1,0 +1,75 @@
+# Meridian InfoTech Solutions - Apache config for the Vite production build.
+# Deploy the contents of /dist as the document root.
+
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Match the canonical host used by robots.txt and sitemap.xml.
+  RewriteCond %{HTTP_HOST} ^www\.meridianinfotechsolutions\.in$ [NC]
+  RewriteRule ^ https://meridianinfotechsolutions.in%{REQUEST_URI} [R=301,L]
+
+  # Force HTTPS without changing the current host.
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+  # Block source, dependency, VCS, and local tooling directories if the
+  # repository root is accidentally exposed instead of /dist.
+  RewriteRule ^(?:src|node_modules|\.git|\.bolt|\.agents|\.codex)(?:/|$) - [F,L]
+
+  # Serve real files and directories directly: assets, favicon, robots, sitemap.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # React Router BrowserRouter fallback for direct access to extensionless app routes.
+  RewriteCond %{REQUEST_URI} !\.[A-Za-z0-9]{2,5}$
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  Header always set Strict-Transport-Security "max-age=31536000"
+
+  <FilesMatch "\.(?:css|js|mjs|png|jpe?g|gif|webp|avif|svg|ico|woff2?|ttf|otf|eot|mp4|webm|pdf)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  <FilesMatch "^(?:index\.html|robots\.txt|sitemap\.xml)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType text/css .css
+  AddType application/javascript .js .mjs
+  AddType image/svg+xml .svg .svgz
+  AddType font/woff2 .woff2
+  AddType font/woff .woff
+  AddType application/pdf .pdf
+  AddType video/mp4 .mp4
+  AddType video/webm .webm
+  AddEncoding gzip .svgz
+</IfModule>
+
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/plain text/css text/xml application/xml application/json application/javascript application/rss+xml image/svg+xml
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/xml application/json application/javascript application/rss+xml image/svg+xml
+</IfModule>
+
+<FilesMatch "^(?:\.env|package(?:-lock)?\.json|vite\.config\.(?:js|ts)|tsconfig(?:\..*)?\.json|tailwind\.config\.js|postcss\.config\.js|eslint\.config\.js|stats\.html)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Deny from all
+  </IfModule>
+</FilesMatch>

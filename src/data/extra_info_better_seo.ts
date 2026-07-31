@@ -1,8 +1,6 @@
 import { type LucideIcon } from "lucide-react";
 import {
   ShoppingBag,
-  Recycle,
-  Laptop,
 } from "lucide-react";
 
 export interface SEOFaq {

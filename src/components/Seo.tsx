@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 
 interface SeoProps {
   title: string;
@@ -11,10 +11,16 @@ interface SeoProps {
 
 const SITE_ORIGIN = 'https://Meridianinfotechsolutions.in';
 
-function renderJsonLd(data: Record<string, unknown> | Record<string, unknown>[]) {
+function setMetaContent(el: HTMLMetaElement, content: string) {
+  if (el.content !== content) {
+    el.content = content;
+  }
+}
+
+function renderJsonLd(serializedData: string) {
   const script = document.createElement('script');
   script.type = 'application/ld+json';
-  script.text = JSON.stringify(data);
+  script.text = serializedData;
   script.setAttribute('data-meridian-seo', 'true');
   document.head.appendChild(script);
   return script;
@@ -28,11 +34,16 @@ export function Seo({
   jsonLd,
   noindex,
 }: SeoProps) {
+  const serializedJsonLd = useMemo(() => (jsonLd ? JSON.stringify(jsonLd) : ''), [jsonLd]);
+
   useEffect(() => {
     const fullTitle = title.includes('Meridian')
       ? title
       : `${title} | Meridian IT Solutions`;
-    document.title = fullTitle;
+
+    if (document.title !== fullTitle) {
+      document.title = fullTitle;
+    }
 
     const ensureMeta = (attr: 'name' | 'property', key: string, content: string) => {
       let el = document.head.querySelector<HTMLMetaElement>(`meta[${attr}="${key}"]`);
@@ -41,7 +52,7 @@ export function Seo({
         el.setAttribute(attr, key);
         document.head.appendChild(el);
       }
-      el.setAttribute('content', content);
+      setMetaContent(el, content);
     };
 
     if (description) {
@@ -61,22 +72,27 @@ export function Seo({
       canonical.rel = 'canonical';
       document.head.appendChild(canonical);
     }
-    canonical.href = canonicalUrl;
+    if (canonical.href !== canonicalUrl) {
+      canonical.href = canonicalUrl;
+    }
     ensureMeta('property', 'og:url', canonicalUrl);
 
+    const robotsMeta = document.head.querySelector<HTMLMetaElement>('meta[name="robots"]');
     if (noindex) {
       ensureMeta('name', 'robots', 'noindex, nofollow');
+    } else if (robotsMeta) {
+      robotsMeta.remove();
     }
 
     let scriptEl: HTMLScriptElement | undefined;
-    if (jsonLd) {
-      scriptEl = renderJsonLd(jsonLd);
+    if (serializedJsonLd) {
+      scriptEl = renderJsonLd(serializedJsonLd);
     }
 
     return () => {
       if (scriptEl) scriptEl.remove();
     };
-  }, [title, description, canonicalPath, ogType, jsonLd, noindex]);
+  }, [title, description, canonicalPath, ogType, serializedJsonLd, noindex]);
 
   return null;
 }

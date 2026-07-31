@@ -1,6 +1,7 @@
 import { useState, type FormEvent } from 'react';
 import { motion } from 'framer-motion';
-import { Phone, Mail, MapPin, MessageCircle, Clock, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
 import { Seo } from '@/components/Seo';
 import { PageHeader } from '@/components/PageHeader';
 import { companyInfo } from '@/data/company';
@@ -118,7 +119,7 @@ export default function ContactPage() {
                 className="group flex items-center gap-4 rounded-2xl border border-ink-200 dark:border-ink-800 bg-white dark:bg-ink-900 p-4 shadow-sm transition-all hover:shadow-lg hover:-translate-y-0.5"
               >
                 <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-green-500/10 text-green-500">
-                  <MessageCircle className="h-5 w-5" />
+                  <FaWhatsapp className="h-5 w-5" />
                 </span>
                 <div className="flex-1">
                   <p className="text-sm font-700 text-ink-900 dark:text-ink-50">WhatsApp</p>
@@ -142,7 +143,7 @@ export default function ContactPage() {
                 </span>
                 <div className="flex-1">
                   <p className="text-sm font-700 text-ink-900 dark:text-ink-50">Hours</p>
-                  <p className="text-sm text-ink-500 dark:text-ink-400">Mon–Sat: 9 AM – 8 PM | Sun: 10 AM – 4 PM</p>
+                  <p className="text-sm text-ink-500 dark:text-ink-400">Mon–Sun: 9 AM – 9 PM </p>
                 </div>
               </div>
             </div>
