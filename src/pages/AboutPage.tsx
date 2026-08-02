@@ -56,7 +56,7 @@ export default function AboutPage() {
             </h2>
             <div className="mt-5 space-y-4 text-sm leading-relaxed text-ink-600 dark:text-ink-300 sm:text-base">
               <p>
-                Meridian IT Solutions was founded in {companyInfo.foundedYear} with a simple
+                Meridian InfoTech Solutions was founded in {companyInfo.foundedYear} with a simple
                 goal: to provide IT maintenance and repair services that people could
                 actually trust. What started as a small workshop has grown into a
                 multi-branch operation serving thousands of individuals and hundreds of

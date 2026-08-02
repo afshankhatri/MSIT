@@ -32,7 +32,7 @@ export default function TestimonialsPage() {
     <>
       <Seo
         title="Customer Reviews — What Our Clients Say"
-        description="Read genuine customer reviews of Meridian IT Solutions. See why 320+ businesses and thousands of individuals trust us with their IT needs."
+        description="Read genuine customer reviews of Meridian InfoTech Solutions. See why 320+ businesses and thousands of individuals trust us with their IT needs."
         canonicalPath="/testimonials"
         jsonLd={jsonLd}
       />
@@ -87,7 +87,7 @@ export default function TestimonialsPage() {
               <PenLine className="h-7 w-7 text-white" />
             </span>
             <h2 className="mt-5 max-w-xl text-balance font-display text-2xl font-700 text-white sm:text-3xl">
-              Had a great experience with Meridian IT Solutions?
+              Had a great experience with Meridian InfoTech Solutions?
             </h2>
             <p className="mt-3 max-w-lg text-pretty text-sm leading-relaxed text-white/90 sm:text-base">
               We would love to hear your feedback. Your review helps others find reliable IT service

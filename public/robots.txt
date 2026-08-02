@@ -3,4 +3,3 @@ Allow: /
 Disallow: /thank-you
 
 Sitemap: https://meridianinfotechsolutions.in/sitemap.xml
-Host: meridianinfotechsolutions.in

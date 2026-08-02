@@ -12,6 +12,7 @@ const FaqPage = lazy(() => import('@/pages/FaqPage'));
 const ContactPage = lazy(() => import('@/pages/ContactPage'));
 const LocationsPage = lazy(() => import('@/pages/LocationsPage'));
 const LocationDetailPage = lazy(() => import('@/pages/LocationDetailPage'));
+const SitemapPage = lazy(() => import('@/pages/SitemapPage'));
 const NotFoundPage = lazy(() => import('@/pages/NotFoundPage'));
 const ThankYouPage = lazy(() => import('@/pages/ThankYouPage'));
 const ExtraDetails = lazy(() => import('@/pages/ExtraInfoDetails'));
@@ -33,6 +34,7 @@ function App() {
             <Route path="locations" element={<LocationsPage />} />
             <Route path="locations/:slug" element={<LocationDetailPage />} />
             <Route path="thank-you" element={<ThankYouPage />} />
+            <Route path="sitemap" element={<SitemapPage />} />
             <Route path=":slug" element={<ExtraDetails />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>

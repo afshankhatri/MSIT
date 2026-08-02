@@ -57,14 +57,14 @@ export default function ContactPage() {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
     name: `Contact ${companyInfo.name}`,
-    description: 'Get in touch with Meridian IT Solutions for IT maintenance, repair, and AMC services.',
+    description: 'Get in touch with Meridian InfoTech Solutions for IT maintenance, repair, and AMC services.',
   };
 
   return (
     <>
       <Seo
         title="Contact Us — Get a Free Quote"
-        description="Contact Meridian IT Solutions for IT maintenance, laptop repair, AMC contracts, and more. Call, email, WhatsApp, or fill out our contact form."
+        description="Contact Meridian InfoTech Solutions for IT maintenance, laptop repair, AMC contracts, and more. Call, email, WhatsApp, or fill out our contact form."
         canonicalPath="/contact"
         jsonLd={jsonLd}
       />

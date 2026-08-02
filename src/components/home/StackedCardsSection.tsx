@@ -159,7 +159,7 @@ export function StackedCardsSection() {
           <div className="text-center">
             <p className="section-label justify-center">Who We Are</p>
             <h2 className="mt-2 text-balance font-display text-xl font-700 text-ink-900 dark:text-ink-50 sm:text-3xl lg:text-4xl">
-              The story behind Meridian IT Solutions
+              The story behind Meridian InfoTech Solutions
             </h2>
           </div>
 

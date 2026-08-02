@@ -54,7 +54,7 @@ export function HeroSection() {
               transition={{ duration: 0.6, delay: 0.16 }}
               className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-ink-600 dark:text-ink-300 sm:text-lg"
             >
-              From laptop screens to full-scale business AMCs, Meridian IT Solutions
+              From laptop screens to full-scale business AMCs, Meridian InfoTech Solutions
               keeps your technology running. Certified technicians, genuine parts, and
               honest pricing trusted by 320+ businesses.
             </motion.p>

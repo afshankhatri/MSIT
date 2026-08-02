@@ -9,7 +9,7 @@ interface SeoProps {
   noindex?: boolean;
 }
 
-const SITE_ORIGIN = 'https://Meridianinfotechsolutions.in';
+const SITE_ORIGIN = 'https://www.meridianinfotechsolutions.in';
 
 function setMetaContent(el: HTMLMetaElement, content: string) {
   if (el.content !== content) {
@@ -39,7 +39,7 @@ export function Seo({
   useEffect(() => {
     const fullTitle = title.includes('Meridian')
       ? title
-      : `${title} | Meridian IT Solutions`;
+      : `${title} | Meridian InfoTech Solutions`;
 
     if (document.title !== fullTitle) {
       document.title = fullTitle;

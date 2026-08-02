@@ -53,7 +53,7 @@ export function Navbar() {
     >
       <nav className="container-px flex h-16 items-center justify-between gap-4 lg:h-18">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2.5 shrink-0" aria-label="Meridian IT Solutions home">
+        <Link to="/" className="flex items-center gap-2.5 shrink-0" aria-label="Meridian InfoTech Solutions home">
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-accent-500 shadow-lg shadow-brand-500/30">
             <Laptop className="h-5 w-5 text-white" strokeWidth={2.5} />
           </span>
@@ -62,7 +62,7 @@ export function Navbar() {
               Meridian
             </span>
             <span className="text-[10px] font-600 uppercase tracking-[0.18em] text-brand-600 dark:text-brand-400">
-              IT Solutions
+              InfoTech Solutions
             </span>
           </span>
         </Link>

@@ -50,7 +50,7 @@ export default function ServiceDetailPage() {
   return (
     <>
       <Seo
-        title={`${service.title} — Meridian IT Solutions`}
+        title={`${service.title} — Meridian InfoTech Solutions`}
         description={service.summary}
         canonicalPath={`/services/${service.slug}`}
         jsonLd={jsonLd}

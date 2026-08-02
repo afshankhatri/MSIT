@@ -19,7 +19,7 @@ export const testimonials: Testimonial[] = [
     role: 'Operations Manager',
     company: 'Stellar Logistics',
     rating: 4,
-    text: 'Meridian IT Solutions has been our AMC partner for over three years. Their response time is incredible and they have never let us down. Our entire office runs smoothly because of their proactive maintenance.',
+    text: 'Meridian InfoTech Solutions has been our AMC partner for over three years. Their response time is incredible and they have never let us down. Our entire office runs smoothly because of their proactive maintenance.',
     date: '2 weeks ago',
     initials: 'RK',
     color: 'from-brand-500 to-brand-700',

@@ -38,7 +38,7 @@ export default function HomePage() {
   return (
     <>
       <Seo
-        title="Meridian IT Solutions — Computer, Laptop & IT Maintenance Services"
+        title="Meridian InfoTech Solutions — Computer, Laptop & IT Maintenance Services"
         description={companyInfo.description}
         canonicalPath="/"
         jsonLd={jsonLd}

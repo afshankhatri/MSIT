@@ -17,7 +17,7 @@ export default function ServicesPage() {
         '@type': 'Service',
         name: s.title,
         description: s.summary,
-        url: `https://www.meridianit.com/services/${s.slug}`,
+        url: `https://www.meridianinfotechsolutions.in/services/${s.slug}`,
       },
     })),
   };

@@ -17,7 +17,7 @@ export default function LocationsPage() {
         '@type': 'Place',
         name: l.name,
         address: l.address,
-        url: `https://www.meridianit.com/locations/${l.slug}`,
+        url: `https://www.meridianinfotechsolutions.in/locations/${l.slug}`,
       },
     })),
   };
@@ -26,7 +26,7 @@ export default function LocationsPage() {
     <>
       <Seo
         title="Our Locations — Find a Branch Near You"
-        description="Meridian IT Solutions has multiple branches to serve you better. Find the location nearest to you with full contact details, hours, and services."
+        description="Meridian InfoTech Solutions has multiple branches to serve you better. Find the location nearest to you with full contact details, hours, and services."
         canonicalPath="/locations"
         jsonLd={jsonLd}
       />

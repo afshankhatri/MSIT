@@ -160,7 +160,7 @@ export const services: Service[] = [
     summary:
       'Comprehensive annual maintenance contracts for businesses covering all computers, laptops, and IT infrastructure.',
     description:
-      'An AMC with Meridian IT Solutions means your entire IT infrastructure is monitored, maintained, and supported throughout the year. You get priority response, scheduled preventive maintenance, and a dedicated point of contact — so IT problems never disrupt your business.',
+      'An AMC with Meridian InfoTech Solutions means your entire IT infrastructure is monitored, maintained, and supported throughout the year. You get priority response, scheduled preventive maintenance, and a dedicated point of contact — so IT problems never disrupt your business.',
     problems: [
       'Unpredictable IT repair costs',
       'Slow response times when something breaks',

@@ -21,27 +21,27 @@ export function Footer() {
     { label: "Computer AMC Service", href: "/computer-amc-service" },
     { label: "Computer Repair in Mumbai", href: "/computer-repair-in-mumbai" },
     { label: "PC Repair in Mumbai", href: "/pc-repair-in-mumbai" },
-    { label: "Laptop Service Center", href: "/laptop-service-center" },
-    { label: "Laptop Repair in Mumbai", href: "/laptop-repair-mumbai" },
-    { label: "MacBook Repair in Mumbai", href: "/macbook-repair-mumbai" },
-    { label: "Apple Service Center", href: "/apple-service-center" },
-    { label: "Apple Service Center in Mumbai", href: "/apple-service-center-mumbai" },
-    { label: "Apple Service Center in Pune", href: "/apple-service-center-pune" },
-    { label: "Laptop Repair", href: "/laptop-repair" },
-    { label: "Laptop Repair in Pune", href: "/laptop-repair-pune" },
-    { label: "MacBook Repair in Pune", href: "/macbook-repair-pune" },
-    { label: "Apple Repair", href: "/apple-repair" },
-    { label: "Laptop Repair Service", href: "/laptop-repair-service" },
-    { label: "Apple Repair Service", href: "/apple-repair-service" },
-    { label: "MacBook Air Repair", href: "/macbook-air-repair" },
-    { label: "iPhone Repair in Mumbai", href: "/iphone-repair-mumbai" },
-    { label: "iPad Repair", href: "/ipad-repair" },
-    { label: "iPhone Repair", href: "/iphone-repair" },
-    { label: "iPhone 7 Repair", href: "/iphone-7-repair" },
-    { label: "Laptop Repair in Navi Mumbai", href: "/laptop-repair-navi-mumbai" },
-    { label: "MacBook Repair in Navi Mumbai", href: "/macbook-repair-navi-mumbai" },
-    { label: "Apple Repair in Navi Mumbai", href: "/apple-repair-navi-mumbai" },
-    { label: "Apple Service Center in Navi Mumbai", href: "/apple-service-center-navi-mumbai" },
+    { label: "Laptop Service Center", href: "" },
+    { label: "Laptop Repair in Mumbai", href: "" },
+    { label: "MacBook Repair in Mumbai", href: "" },
+    { label: "Apple Service Center", href: "" },
+    { label: "Apple Service Center in Mumbai", href: "" },
+    { label: "Apple Service Center in Pune", href: "" },
+    { label: "Laptop Repair", href: "" },
+    { label: "Laptop Repair in Pune", href: "" },
+    { label: "MacBook Repair in Pune", href: "" },
+    { label: "Apple Repair", href: "" },
+    { label: "Laptop Repair Service", href: "" },
+    { label: "Apple Repair Service", href: "" },
+    { label: "MacBook Air Repair", href: "" },
+    { label: "iPhone Repair in Mumbai", href: "" },
+    { label: "iPad Repair", href: "" },
+    { label: "iPhone Repair", href: "" },
+    { label: "iPhone 7 Repair", href: "" },
+    { label: "Laptop Repair in Navi Mumbai", href: "" },
+    { label: "MacBook Repair in Navi Mumbai", href: "" },
+    { label: "Apple Repair in Navi Mumbai", href: "" },
+    { label: "Apple Service Center in Navi Mumbai", href: "" },
   ];
 
   return (
@@ -53,7 +53,7 @@ export function Footer() {
         <div className="grid gap-10 lg:grid-cols-12">
           {/* Brand */}
           <div className="lg:col-span-4">
-            <Link to="/" className="flex items-center gap-2.5" aria-label="Meridian IT Solutions home">
+            <Link to="/" className="flex items-center gap-2.5" aria-label="Meridian InfoTech Solutions home">
               <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-accent-500 shadow-lg shadow-brand-500/30">
                 <Laptop className="h-5 w-5 text-white" strokeWidth={2.5} />
               </span>
@@ -62,7 +62,7 @@ export function Footer() {
                   Meridian
                 </span>
                 <span className="text-[10px] font-600 uppercase tracking-[0.18em] text-brand-600 dark:text-brand-400">
-                  IT Solutions
+                  InfoTech Solutions
                 </span>
               </span>
             </Link>
@@ -213,6 +213,12 @@ export function Footer() {
           </p>
           <div className="flex gap-5">
             <Link to="/faq" className="text-xs text-ink-400 dark:text-ink-500 hover:text-brand-600 dark:hover:text-brand-400">Privacy Policy</Link>
+            <Link
+              to="/sitemap"
+              className="text-xs text-ink-400 dark:text-ink-500 hover:text-brand-600 dark:hover:text-brand-400"
+            >
+              Sitemap
+            </Link>
             <Link to="/faq" className="text-xs text-ink-400 dark:text-ink-500 hover:text-brand-600 dark:hover:text-brand-400">Terms of Service</Link>
             <Link to="/contact" className="text-xs text-ink-400 dark:text-ink-500 hover:text-brand-600 dark:hover:text-brand-400">Support</Link>
           </div>

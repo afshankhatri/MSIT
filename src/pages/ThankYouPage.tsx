@@ -9,7 +9,7 @@ export default function ThankYouPage() {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
     name: `Thank You — ${companyInfo.name}`,
-    description: 'Thank you for contacting Meridian IT Solutions.',
+    description: 'Thank you for contacting Meridian InfoTech Solutions.',
   };
 
   return (
