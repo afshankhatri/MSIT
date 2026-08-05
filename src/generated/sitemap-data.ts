@@ -193,6 +193,38 @@ export const sitemapSections: SitemapSection[] = [
           {
             "label": "Dell Laptop Repair",
             "to": "/dell-laptop-repair"
+          },
+          {
+            "label": "iPhone Repair Mumbai",
+            "to": "/iphone-repair-mumbai"
+          },
+          {
+            "label": "Apple Watch Repair",
+            "to": "/apple-watch-repair"
+          },
+          {
+            "label": "MacBook Repair",
+            "to": "/macbook-repair"
+          },
+          {
+            "label": "Mac Repair",
+            "to": "/mac-repair"
+          },
+          {
+            "label": "MacBook Repair Mumbai",
+            "to": "/macbook-repair-mumbai"
+          },
+          {
+            "label": "Mac Fix Station",
+            "to": "/mac-fix-station"
+          },
+          {
+            "label": "MacBook Screen Repair",
+            "to": "/macbook-screen-repair"
+          },
+          {
+            "label": "Apple MacBook Repair",
+            "to": "/apple-macbook-repair"
           }
         ]
       },

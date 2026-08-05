@@ -21,27 +21,14 @@ export function Footer() {
     { label: "Computer AMC Service", href: "/computer-amc-service" },
     { label: "Computer Repair in Mumbai", href: "/computer-repair-in-mumbai" },
     { label: "PC Repair in Mumbai", href: "/pc-repair-in-mumbai" },
-    { label: "Laptop Service Center", href: "" },
-    { label: "Laptop Repair in Mumbai", href: "" },
-    { label: "MacBook Repair in Mumbai", href: "" },
-    { label: "Apple Service Center", href: "" },
-    { label: "Apple Service Center in Mumbai", href: "" },
-    { label: "Apple Service Center in Pune", href: "" },
-    { label: "Laptop Repair", href: "" },
-    { label: "Laptop Repair in Pune", href: "" },
-    { label: "MacBook Repair in Pune", href: "" },
-    { label: "Apple Repair", href: "" },
-    { label: "Laptop Repair Service", href: "" },
-    { label: "Apple Repair Service", href: "" },
-    { label: "MacBook Air Repair", href: "" },
-    { label: "iPhone Repair in Mumbai", href: "" },
-    { label: "iPad Repair", href: "" },
-    { label: "iPhone Repair", href: "" },
-    { label: "iPhone 7 Repair", href: "" },
-    { label: "Laptop Repair in Navi Mumbai", href: "" },
-    { label: "MacBook Repair in Navi Mumbai", href: "" },
-    { label: "Apple Repair in Navi Mumbai", href: "" },
-    { label: "Apple Service Center in Navi Mumbai", href: "" },
+    { label: "iPhone Repair Mumbai", href: "/iphone-repair-mumbai" },
+    { label: "Apple Watch Repair", href: "/apple-watch-repair" },
+    { label: "MacBook Repair", href: "/macbook-repair" },
+    { label: "Mac Repair", href: "/mac-repair" },
+    { label: "MacBook Repair Mumbai", href: "/macbook-repair-mumbai" },
+    { label: "Mac Fix Station", href: "/mac-fix-station" },
+    { label: "MacBook Screen Repair", href: "/macbook-screen-repair" },
+    { label: "Apple MacBook Repair", href: "/apple-macbook-repair" }
   ];
 
   return (
@@ -54,8 +41,12 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-4">
             <Link to="/" className="flex items-center gap-2.5" aria-label="Meridian InfoTech Solutions home">
-              <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-accent-500 shadow-lg shadow-brand-500/30">
-                <Laptop className="h-5 w-5 text-white" strokeWidth={2.5} />
+              <span className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-xl bg-white shadow-lg shadow-brand-500/20">
+                <img
+                  src="/logo.webp"
+                  alt="Meridian Infotech Solutions"
+                  className="h-full w-full object-contain p-1"
+                />
               </span>
               <span className="flex flex-col leading-none">
                 <span className="font-display text-base font-700 tracking-tight text-ink-900 dark:text-ink-50">

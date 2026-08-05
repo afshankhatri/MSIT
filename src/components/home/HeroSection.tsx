@@ -4,9 +4,9 @@ import { ArrowRight, Phone, Sparkles, ShieldCheck, Zap, Wrench } from 'lucide-re
 import { companyInfo } from '@/data/company';
 
 const trustBadges = [
-  { icon: ShieldCheck, label: '12+ Years' },
+  { icon: ShieldCheck, label: '8+ Years' },
   { icon: Zap, label: 'Same-Day Service' },
-  { icon: Wrench, label: 'All Brands' },
+  { icon: Wrench, label: 'Mac/Iphone Experts' },
   { icon: Sparkles, label: 'Genuine Parts' },
 ];
 

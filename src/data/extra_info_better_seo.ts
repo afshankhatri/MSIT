@@ -2742,8 +2742,1576 @@ export const seoPages: SEOPage[] = [
                 "Customers choose our Dell laptop repair service because of our experienced technicians, transparent diagnostics, quality repairs, and reliable customer support."
             }
         ]
-    }
+    },
+    {
+        slug: "iphone-repair-mumbai",
+        title: "iPhone Repair Mumbai",
+        shortTitle: "iPhone Repair",
+        tagline: "Expert iPhone Screen Repair Services",
+        icon: ShoppingBag,
+        accent: "from-brand-500 to-brand-600",
+        category: "repair",
 
+        metaTitle:
+            "iPhone Repair Mumbai | Expert iPhone Screen Repair Services",
+        metaDescription:
+            "Professional iPhone repair Mumbai for screen, battery, charging, and water damage issues. Trusted iPhone screen repair Mumbai with fast service.",
+        heroDescription:
+            "Need reliable iPhone repair services in Mumbai for a damaged or malfunctioning device? Whether your iPhone has a cracked screen, battery problems, charging issues, water damage, or software faults, our experienced technicians provide professional repair solutions for all major iPhone models.",
+        highlights: [
+            "Experienced iPhone Repair Technicians",
+            "Quality Replacement Components",
+            "Comprehensive Diagnostics",
+            "Fast Turnaround Time"
+        ],
+        sections: [
+            {
+                id:"common-services",
+                title: "Common iPhone Repair Mumbai Services",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Every iPhone problem requires proper diagnosis before repair. Our iPhone repair Mumbai service begins with a detailed inspection to identify the exact cause of the issue and recommend the most suitable solution."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "We commonly repair:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Cracked or broken iPhone screens",
+                            "Display touch issues",
+                            "Battery draining quickly",
+                            "iPhone not charging",
+                            "Charging port damage",
+                            "Water and liquid damage",
+                            "Speaker and microphone issues",
+                            "Camera problems",
+                            "Face ID and sensor issues",
+                            "Software crashes and boot loops",
+                            "iOS installation and recovery",
+                            "Data backup and recovery support"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Our technicians use systematic diagnostics and professional repair procedures to ensure reliable iPhone repair Mumbai solutions for both personal and business users."
+                    }
+                ]
+            },
+            {
+                id:"screen-repair",
+                title: "iPhone Screen Repair Mumbai",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "A damaged screen can affect touch response, display clarity, and overall usability. Our iPhone screen repair Mumbai service is designed to restore both the appearance and functionality of your device using high-quality replacement screens and precise installation techniques."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Signs you may need iPhone screen repair Mumbai:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Cracked front glass",
+                            "Black spots or lines on the display",
+                            "Touch not responding",
+                            "Flickering screen",
+                            "Display discoloration",
+                            "Screen lifting from the frame",
+                            "Unresponsive or ghost touch issues"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "We perform iPhone screen repair Mumbai for a wide range of iPhone models and ensure the display is properly tested for touch sensitivity, brightness, and overall performance before delivery."
+                    }
+                ]
+            },
+            {
+                id:"preventive-care",
+                title: "Preventive Care and iPhone Repair Mumbai",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Regular care can help reduce the risk of expensive repairs and improve the long-term performance of your iPhone. Along with repair services, our iPhone repair Mumbai solutions include guidance on preventive maintenance and device protection."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Combining preventive care with professional iPhone repair Mumbai services helps keep your device working efficiently throughout the year."
+                    }
+                ]
+            },
+            {
+                id:"why-choose-us",
+                title: "Why Choose Our iPhone Repair Mumbai Service?",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Choosing the right provider for iPhone repair Mumbai is important for the safety and performance of your device. We focus on accurate diagnostics, quality repairs, and dependable customer support for every repair request."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Why customers choose us:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Experienced iPhone repair technicians",
+                            "Support for multiple iPhone models",
+                            "Specialized iPhone screen repair Mumbai service",
+                            "Comprehensive device diagnostics",
+                            "Quality replacement components",
+                            "Affordable repair solutions",
+                            "Fast turnaround time",
+                            "Transparent communication",
+                            "Dedicated customer support"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Whether your iPhone requires a screen replacement, battery service, charging repair, or complete diagnostics, our iPhone repair Mumbai team is equipped to restore reliable performance and minimize downtime."
+                    }
+                ]
+            }
+        ],
+        faqs:[
+            {
+                question:"What services are included in iPhone repair Mumbai?",
+                answer:
+                "Our iPhone repair Mumbai service includes screen replacement, battery replacement, charging port repair, water damage treatment, camera repair, speaker repair, software troubleshooting, and diagnostic services."
+            },
+            {
+                question:"Do you provide iPhone screen repair Mumbai for all iPhone models?",
+                answer:
+                "Yes. Our iPhone screen repair Mumbai service supports a wide range of iPhone models, including older and newer generations, subject to parts availability."
+            },
+            {
+                question:"Can businesses use your iPhone repair Mumbai services?",
+                answer:
+                "Yes. We provide iPhone repair Mumbai solutions for individual users, offices, businesses, educational institutions, and organizations managing multiple devices."
+            },
+            {
+                question:"How long does iPhone screen repair Mumbai usually take?",
+                answer:
+                "The repair time depends on the device model, the extent of damage, and the availability of replacement components."
+            },
+            {
+                question:"Does your iPhone repair Mumbai service include battery replacement?",
+                answer:
+                "Yes. We provide battery replacement, battery health checks, charging diagnostics, and related power-performance services."
+            },
+            {
+                question:"Why is preventive maintenance important along with iPhone repair Mumbai?",
+                answer:
+                "Preventive maintenance helps reduce the risk of future damage, improves battery life, supports stable performance, and can reduce the need for major repairs over time."
+            }
+        ]
+    },
+    {
+        slug: "apple-watch-repair",
+        title: "Apple Watch Repair",
+        shortTitle: "Apple Watch Repair",
+        tagline: "Expert Apple Watch Service",
+        icon: ShoppingBag,
+        accent: "from-brand-500 to-brand-600",
+        category: "repair",
+
+        metaTitle:
+            "Apple Watch Repair | Expert Apple Watch Service",
+        metaDescription:
+            "Professional Apple Watch repair for screen, battery, charging, water damage, and performance issues. Trusted Apple Watch service by experienced technicians.",
+        heroDescription:
+            "Need professional Apple Watch repair for a damaged or malfunctioning smartwatch? Whether your Apple Watch has a cracked screen, battery issues, charging problems, water damage, or software faults, our experienced technicians provide reliable repair solutions for a wide range of Apple Watch models.",
+        highlights: [
+            "Experienced Apple Watch Technicians",
+            "Quality Replacement Components",
+            "Comprehensive Diagnostics",
+            "Fast Turnaround Time"
+        ],
+        sections: [
+            {
+                id:"common-services",
+                title: "Common Apple Watch Repair Services",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Every Apple Watch issue is different, which is why our Apple Watch repair service begins with a detailed inspection before any repair is performed."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "We commonly repair:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Cracked or broken Apple Watch screens",
+                            "Touchscreen responsiveness issues",
+                            "Battery draining quickly",
+                            "Apple Watch not charging",
+                            "Charging dock connection problems",
+                            "Water and liquid damage",
+                            "Speaker and microphone issues",
+                            "Digital Crown and side button problems",
+                            "Sensor and connectivity issues",
+                            "WatchOS installation and recovery",
+                            "Boot loop and startup problems",
+                            "Data backup and recovery support"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Our technicians use systematic diagnostics and professional repair procedures to provide reliable Apple Watch repair solutions for both personal and business users."
+                    }
+                ]
+            },
+            {
+                id:"screen-battery-service",
+                title: "Apple Watch Service for Screen and Battery Issues",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "A damaged display or weak battery can significantly affect the usability of your smartwatch. Our Apple Watch service is designed to restore both functionality and appearance using high-quality replacement components and precise installation techniques."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Signs you may need Apple Watch service include:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Cracked or shattered screen",
+                            "Display flickering or discoloration",
+                            "Touch not responding properly",
+                            "Battery draining unusually fast",
+                            "Watch not holding charge",
+                            "Overheating during use",
+                            "Screen lifting from the body",
+                            "Charging interruptions"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "We perform Apple Watch service for a wide range of models and ensure the device is thoroughly tested for display performance, touch sensitivity, battery behavior, charging reliability, and overall functionality before delivery."
+                    }
+                ]
+            },
+            {
+                id:"preventive-maintenance",
+                title: "Preventive Maintenance and Apple Watch Service",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Regular care can help reduce unexpected failures and extend the lifespan of your smartwatch. Along with repair solutions, our Apple Watch service includes guidance on preventive maintenance and device protection."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Benefits of proper maintenance include:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Better battery performance",
+                            "Reduced risk of screen damage",
+                            "Improved charging reliability",
+                            "Stable WatchOS performance",
+                            "Lower chances of overheating",
+                            "Longer device lifespan",
+                            "Better overall responsiveness"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Combining preventive maintenance with professional Apple Watch repair helps keep your smartwatch running efficiently year-round."
+                    }
+                ]
+            },
+            {
+                id:"why-choose-us",
+                title: "Why Choose Our Apple Watch Repair Service?",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Choosing the right provider for Apple Watch repair is important for your device's safety and performance. We focus on accurate diagnostics, quality repairs, and dependable customer support for every repair request."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Why customers choose us:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Experienced Apple Watch repair technicians",
+                            "Support for multiple Apple Watch models",
+                            "Specialized Apple Watch service solutions",
+                            "Comprehensive device diagnostics",
+                            "Quality replacement components",
+                            "Affordable repair solutions",
+                            "Fast turnaround time",
+                            "Transparent communication",
+                            "Dedicated customer support"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Whether your Apple Watch requires a screen replacement, battery service, charging repair, water damage treatment, or complete diagnostics, our Apple Watch repair team is equipped to restore reliable performance and minimize downtime."
+                    }
+                ]
+            }
+        ],
+        faqs:[
+            {
+                question:"What services are included in Apple Watch repair?",
+                answer:
+                "Our Apple Watch repair service includes screen replacement, battery replacement, charging repair, water damage treatment, speaker repair, button repair, software troubleshooting, and complete diagnostics."
+            },
+            {
+                question:"Do you provide Apple Watch service for all models?",
+                answer:
+                "Yes. Our Apple Watch service supports a wide range of Apple Watch models, including older and newer generations, subject to parts availability."
+            },
+            {
+                question:"Can businesses use your Apple Watch repair services?",
+                answer:
+                "Yes. We provide Apple Watch repair support for individual users, offices, businesses, educational institutions, and organizations managing multiple devices."
+            },
+            {
+                question:"How long does Apple Watch service usually take?",
+                answer:
+                "The repair time depends on the model, the extent of the damage, diagnostic results, and the availability of replacement components."
+            },
+            {
+                question:"Does your Apple Watch repair service include battery replacement?",
+                answer:
+                "Yes. We provide battery replacement, battery health checks, charging diagnostics, and related power-performance services."
+            },
+            {
+                question:"Why is preventive maintenance important along with Apple Watch service?",
+                answer:
+                "Regular maintenance helps reduce the risk of future damage, improves battery life, supports stable performance, and can reduce the need for major repairs over time."
+            }
+        ]
+    },
+    {
+        slug: "macbook-repair",
+        title: "MacBook Repair",
+        shortTitle: "MacBook Repair",
+        tagline: "Expert MacBook Pro Repair Services",
+        icon: ShoppingBag,
+        accent: "from-brand-500 to-brand-600",
+        category: "repair",
+
+        metaTitle:
+            "MacBook Repair | Expert MacBook Pro Repair Services",
+        metaDescription:
+            "Professional MacBook repair and MacBook Pro repair for screen, battery, keyboard, charging, water damage, and performance issues. Fast and reliable service.",
+        heroDescription:
+            "A faulty MacBook can interrupt work, study, creative projects, and daily communication. Whether your laptop has a cracked display, battery swelling, charging failure, liquid damage, overheating, or startup problems, our MacBook repair service is designed to identify the exact cause and provide an effective solution.",
+        highlights: [
+            "Apple Hardware Technicians",
+            "Intel & Apple Silicon Support",
+            "Detailed Fault Diagnosis",
+            "Component-Level Assessment"
+        ],
+        sections: [
+            {
+                id:"common-services",
+                title: "Common MacBook Repair Services",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "MacBook problems are not always caused by a single faulty part. Our repair process begins with a detailed inspection of the laptop’s hardware, power system, cooling system, storage, and software environment."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "We regularly handle:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "MacBook not turning on",
+                            "Cracked or flickering display",
+                            "Battery swelling or rapid battery drain",
+                            "Keyboard keys not responding",
+                            "Trackpad malfunction",
+                            "Charging and USB-C port issues",
+                            "Liquid damage and corrosion",
+                            "Fan noise and overheating",
+                            "Slow startup and performance drops",
+                            "SSD and storage failures",
+                            "macOS boot and update errors",
+                            "Data recovery and backup assistance"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "By testing the affected components individually, we can determine whether the issue is related to the display assembly, battery, logic board, storage, thermal system, or software configuration."
+                    }
+                ]
+            },
+            {
+                id:"macbook-pro-repair",
+                title: "MacBook Pro Repair for Professional and High-Performance Models",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "MacBook Pro devices are widely used for video editing, software development, design, music production, and other demanding tasks. These systems may develop problems that require specialized diagnosis rather than simple part replacement."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Our MacBook Pro repair service addresses issues such as:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Display cable and backlight faults",
+                            "Unexpected shutdowns during heavy use",
+                            "Thermal throttling and excessive heat",
+                            "Battery service warnings",
+                            "Logic board and power circuit failures",
+                            "Speaker distortion",
+                            "Touch Bar or function key problems",
+                            "External display connectivity issues"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "After repair, the MacBook Pro is tested for charging stability, display performance, keyboard and trackpad operation, cooling efficiency, and overall system reliability to ensure it performs consistently during everyday and professional use."
+                    }
+                ]
+            },
+            {
+                id:"preventive-maintenance",
+                title: "Preventive Maintenance for Long-Term MacBook Health",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Many expensive laptop repairs can be reduced through periodic maintenance and early detection of wear. Dust buildup, aging batteries, high operating temperatures, and storage issues often develop gradually before causing major failures."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Preventive maintenance can help with:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Smoother system performance",
+                            "Better battery life",
+                            "Lower operating temperatures",
+                            "Reduced fan noise",
+                            "Improved storage reliability",
+                            "Fewer unexpected shutdowns",
+                            "Longer lifespan of internal components"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Routine maintenance is especially useful for MacBooks used for professional applications, remote work, academic use, or long daily operating hours."
+                    }
+                ]
+            },
+            {
+                id:"why-choose-us",
+                title: "Why Choose Our MacBook Repair Service?",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Selecting a repair provider for a MacBook requires more than basic laptop experience. Apple hardware uses compact internal designs and interconnected components that need careful handling during diagnosis and repair."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Customers choose our service because we offer:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Technicians familiar with Apple laptop hardware",
+                            "Support for Intel and Apple silicon models",
+                            "Detailed fault diagnosis",
+                            "Component-level assessment where possible",
+                            "High-quality replacement parts",
+                            "Clear repair recommendations",
+                            "Reasonable pricing",
+                            "Timely repair updates",
+                            "Post-repair functional testing"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Whether your MacBook needs a new screen, battery replacement, keyboard repair, charging-port service, liquid-damage treatment, or advanced logic-board troubleshooting, we aim to provide a repair process that is thorough, reliable, and easy to understand."
+                    }
+                ]
+            }
+        ],
+        faqs:[
+            {
+                question:"What does your MacBook repair service include?",
+                answer:
+                "Our MacBook repair service includes screen replacement, battery replacement, keyboard and trackpad repair, charging-port repair, liquid-damage treatment, SSD replacement, macOS troubleshooting, data backup assistance, and hardware diagnostics."
+            },
+            {
+                question:"Do you offer MacBook Pro repair for newer Apple silicon models?",
+                answer:
+                "Yes. We provide MacBook Pro repair for many newer Apple silicon models as well as several Intel-based MacBook Pro systems, depending on part availability and the nature of the fault."
+            },
+            {
+                question:"Can you repair a MacBook that has suffered liquid damage?",
+                answer:
+                "Yes. Liquid-damaged MacBooks can often be inspected for corrosion, power issues, keyboard damage, and logic-board faults. The repair approach depends on how quickly the device was powered off and the extent of the liquid exposure."
+            },
+            {
+                question:"How long does MacBook Pro repair usually take?",
+                answer:
+                "Repair time varies according to the model, the type of failure, the diagnostic findings, and whether replacement parts are immediately available."
+            },
+            {
+                question:"Do you replace swollen or worn-out MacBook batteries?",
+                answer:
+                "Yes. We provide battery replacement for MacBooks that show battery-service warnings, reduced runtime, charging problems, or physical battery swelling."
+            },
+            {
+                question:"Is maintenance useful even if my MacBook is still working?",
+                answer:
+                "Yes. Preventive maintenance can help identify overheating, battery wear, storage problems, and other developing issues before they lead to major hardware failures or data loss."
+            }
+        ]
+    },
+    {
+        slug: "mac-repair",
+        title: "Mac Repair",
+        shortTitle: "Mac Repair",
+        tagline: "Expert MacBook Air Repair Services",
+        icon: ShoppingBag,
+        accent: "from-brand-500 to-brand-600",
+        category: "repair",
+
+        metaTitle:
+            "Mac Repair | Expert MacBook Air Repair Services",
+        metaDescription:
+            "Professional Mac repair and MacBook Air repair for screen, battery, charging, liquid damage, and performance issues. Fast and reliable Apple laptop service.",
+        heroDescription:
+            "If your Mac is running slowly, failing to start, overheating, showing display problems, or experiencing hardware issues, professional repair can help restore its performance and reliability. Our Mac repair service covers a wide range of Apple computers, including MacBook Air, MacBook Pro, and other Mac systems used for personal, academic, and business purposes.",
+        highlights: [
+            "Apple Computer Technicians",
+            "Detailed Hardware Diagnostics",
+            "High-Quality Replacement Parts",
+            "Post-Repair Functional Testing"
+        ],
+        sections: [
+            {
+                id:"common-services",
+                title: "Common Mac Repair Services",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Mac computers can develop problems gradually or fail unexpectedly. Our repair process focuses on checking the power system, display, cooling, storage, and software environment to determine the most effective repair approach."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "We commonly repair:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Mac not turning on",
+                            "Cracked or damaged screens",
+                            "Battery draining quickly",
+                            "Charging and USB-C port issues",
+                            "Keyboard and trackpad faults",
+                            "Liquid and water damage",
+                            "Overheating and fan problems",
+                            "Slow performance",
+                            "SSD and storage failures",
+                            "macOS boot and update errors",
+                            "Data backup and recovery support"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "By diagnosing each component carefully, we can determine whether the fault is related to the battery, display assembly, logic board, storage device, cooling system, or software configuration."
+                    }
+                ]
+            },
+            {
+                id:"macbook-air-repair",
+                title: "MacBook Air Repair for Display, Battery, and Charging Issues",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "MacBook Air models are popular because of their portability and battery life, but they can still develop hardware and software problems over time. Our MacBook Air repair service is designed to address issues that affect everyday usability, work, and study."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Common MacBook Air repair issues include:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Cracked or flickering display",
+                            "Battery not holding charge",
+                            "MacBook Air not charging",
+                            "Keyboard keys not responding",
+                            "Trackpad becoming unresponsive",
+                            "Liquid damage",
+                            "Overheating during use",
+                            "Slow startup or freezing",
+                            "Wi-Fi and connectivity issues"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "After repair, the MacBook Air is tested for charging stability, display quality, keyboard and trackpad operation, battery behavior, thermal performance, and overall system reliability."
+                    }
+                ]
+            },
+            {
+                id:"preventive-maintenance",
+                title: "Preventive Maintenance for Better Mac Performance",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Regular maintenance can help reduce unexpected failures and improve the long-term performance of your Mac. Dust buildup, battery wear, high temperatures, and storage issues often develop gradually before causing noticeable problems."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Benefits of preventive maintenance include:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Faster system performance",
+                            "Better battery efficiency",
+                            "Lower operating temperatures",
+                            "Reduced fan noise",
+                            "Improved storage reliability",
+                            "Fewer unexpected shutdowns",
+                            "Longer lifespan of internal components"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Preventive maintenance is especially useful for Macs used for office work, remote work, education, creative applications, and extended daily usage."
+                    }
+                ]
+            },
+            {
+                id:"why-choose-us",
+                title: "Why Choose Our Mac Repair Service?",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Repairing a Mac requires experience with Apple hardware, compact internal designs, and model-specific components. We focus on accurate troubleshooting, careful handling of the device, and clear repair recommendations."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Customers choose our Mac repair service because we provide:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Technicians experienced with Apple computers",
+                            "Support for multiple Mac models",
+                            "Detailed hardware diagnostics",
+                            "High-quality replacement parts",
+                            "Clear repair recommendations",
+                            "Reasonable pricing",
+                            "Timely repair updates",
+                            "Post-repair functional testing"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Whether your Mac requires a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced hardware troubleshooting, our Mac repair team is committed to delivering reliable service and restoring stable performance."
+                    }
+                ]
+            }
+        ],
+        faqs:[
+            {
+                question:"What is included in your Mac repair service?",
+                answer:
+                "Our Mac repair service includes screen replacement, battery replacement, charging-port repair, keyboard and trackpad repair, liquid-damage treatment, SSD replacement, macOS troubleshooting, data backup assistance, and hardware diagnostics."
+            },
+            {
+                question:"Do you provide MacBook Air repair for all models?",
+                answer:
+                "Yes. We provide MacBook Air repair for many Intel and Apple silicon MacBook Air models, subject to parts availability and the nature of the fault."
+            },
+            {
+                question:"Can you repair a Mac that has suffered liquid damage?",
+                answer:
+                "Yes. Liquid-damaged Macs can often be inspected for corrosion, power issues, keyboard damage, and logic-board faults. The repair depends on the extent of the liquid exposure."
+            },
+            {
+                question:"How long does MacBook Air repair usually take?",
+                answer:
+                "Repair time depends on the model, the type of problem, the diagnostic results, and the availability of replacement components."
+            },
+            {
+                question:"Do you replace MacBook Air batteries?",
+                answer:
+                "Yes. We provide battery replacement for MacBook Air devices with reduced battery life, charging problems, service warnings, or physical battery swelling."
+            },
+            {
+                question:"Is preventive maintenance necessary if my Mac is working normally?",
+                answer:
+                "Yes. Preventive maintenance can help identify overheating, battery wear, storage issues, and other developing problems before they lead to major repairs or data loss."
+            }
+        ]
+    },
+    {
+        slug: "macbook-repair-mumbai",
+        title: "MacBook Repair Mumbai",
+        shortTitle: "MacBook Repair",
+        tagline: "Mac Master Mumbai for Apple Laptop Repairs",
+        icon: ShoppingBag,
+        accent: "from-brand-500 to-brand-600",
+        category: "repair",
+
+        metaTitle:
+            "MacBook Repair Mumbai | Mac Master Mumbai for Apple Laptop Repairs",
+        metaDescription:
+            "Get expert MacBook repair Mumbai for screen, battery, charging, liquid damage, and startup issues. Trusted Mac Master Mumbai support for Apple laptop repairs",
+        heroDescription:
+            "When a MacBook stops working properly, even small issues can affect work, study, editing projects, meetings, and daily communication. Our MacBook repair Mumbai service is focused on diagnosing Apple laptop problems accurately and providing repair solutions that are practical, reliable, and easy to understand.",
+        highlights: [
+            "Experienced MacBook Technicians",
+            "Intel & Apple Silicon Support",
+            "Detailed Hardware Diagnostics",
+            "Post-Repair Functional Testing"
+        ],
+        sections: [
+            {
+                id:"common-services",
+                title: "Common MacBook Repair Mumbai Services",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "MacBook problems often involve more than one component, so proper testing is important before any repair begins. We examine the display, battery, charging circuit, storage, cooling system, and software environment to identify the actual source of the fault."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Our MacBook repair Mumbai service commonly includes:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "MacBook not turning on",
+                            "Cracked or flickering display",
+                            "Battery draining unusually fast",
+                            "USB-C and charging issues",
+                            "Keyboard and trackpad problems",
+                            "Liquid and spill damage",
+                            "Overheating and fan noise",
+                            "Slow startup or freezing",
+                            "SSD and storage failures",
+                            "macOS update and boot errors",
+                            "Data backup and recovery support"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "This step-by-step diagnostic process helps avoid unnecessary part replacement and allows us to recommend the most effective repair option."
+                    }
+                ]
+            },
+            {
+                id:"mac-master-mumbai",
+                title: "Mac Master Mumbai for Advanced Apple Laptop Repairs",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Some MacBook issues require deeper troubleshooting beyond standard repairs. Our Mac Master Mumbai service is intended for users facing recurring, complex, or difficult-to-diagnose Apple laptop problems."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "We commonly handle advanced issues such as:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Random shutdowns during use",
+                            "Backlight and display cable faults",
+                            "Battery service warnings",
+                            "Logic board and power circuit failures",
+                            "Charging instability",
+                            "Speaker and audio problems",
+                            "Performance drops under heavy workloads",
+                            "External display connection issues"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "After the repair is completed, the MacBook is tested for charging stability, display quality, keyboard and trackpad operation, battery behavior, thermal performance, and overall system reliability."
+                    }
+                ]
+            },
+            {
+                id:"preventive-maintenance",
+                title: "Preventive Maintenance for MacBook Users",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Regular maintenance can reduce the chances of unexpected hardware failure and help keep a MacBook performing smoothly over time. Dust buildup, battery wear, heat, and storage issues often develop gradually before they become noticeable."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Benefits of preventive maintenance include:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Faster everyday performance",
+                            "Improved battery efficiency",
+                            "Lower operating temperatures",
+                            "Reduced fan noise",
+                            "Better storage reliability",
+                            "Fewer unexpected shutdowns",
+                            "Longer lifespan of internal components"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Preventive care is especially useful for professionals, students, designers, developers, remote workers, and anyone who uses a MacBook for extended hours each day."
+                    }
+                ]
+            },
+            {
+                id:"why-choose-us",
+                title: "Why Choose Our MacBook Repair Mumbai Service?",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Choosing the right repair provider is important for the safety of your data and the reliability of your MacBook. We focus on careful handling of Apple hardware, clear communication, and repairs that are based on proper diagnosis rather than guesswork."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Customers choose our service because we provide:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Experienced MacBook technicians",
+                            "Support for Intel and Apple silicon models",
+                            "Detailed hardware diagnostics",
+                            "High-quality replacement components",
+                            "Clear repair recommendations",
+                            "Fair and transparent pricing",
+                            "Timely repair updates",
+                            "Post-repair functional testing"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Whether you need a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced troubleshooting, our MacBook repair Mumbai team is committed to restoring dependable performance with professional support."
+                    }
+                ]
+            }
+        ],
+        faqs:[
+            {
+                question:"What is included in your MacBook repair Mumbai service?",
+                answer:
+                "Our service includes screen replacement, battery replacement, charging-port repair, keyboard and trackpad repair, liquid-damage treatment, SSD replacement, macOS troubleshooting, data backup assistance, and hardware diagnostics."
+            },
+            {
+                question:"What does Mac Master Mumbai mean for MacBook users?",
+                answer:
+                "Mac Master Mumbai refers to our advanced troubleshooting support for complex Apple laptop issues such as logic board faults, power problems, charging instability, display failures, and recurring performance issues."
+            },
+            {
+                question:"Can you repair a MacBook affected by liquid damage?",
+                answer:
+                "Yes. Liquid-damaged MacBooks can be inspected for corrosion, power issues, keyboard damage, and logic-board faults. The repair depends on the extent of the liquid exposure and the condition of the affected components."
+            },
+            {
+                question:"How long does MacBook repair Mumbai usually take?",
+                answer:
+                "Repair time depends on the MacBook model, the nature of the problem, the diagnostic findings, and the availability of replacement parts."
+            },
+            {
+                question:"Do you replace MacBook batteries?",
+                answer:
+                "Yes. We provide battery replacement for MacBooks with reduced battery life, charging problems, service warnings, or physical battery swelling."
+            },
+            {
+                question:"Is preventive maintenance useful even if my MacBook is working normally?",
+                answer:
+                "Yes. Preventive maintenance can help identify overheating, battery wear, storage issues, and other developing problems before they lead to major repairs or data loss."
+            }
+        ]
+    },
+    {
+        slug: "mac-fix-station",
+        title: "Mac Fix Station",
+        shortTitle: "Mac Fix Station",
+        tagline: "Fix MacBook Pro with Expert Apple Repair Support",
+        icon: ShoppingBag,
+        accent: "from-brand-500 to-brand-600",
+        category: "repair",
+
+        metaTitle:
+            "Mac Fix Station | Fix MacBook Pro with Expert Apple Repair Support",
+        metaDescription:
+            "Visit Mac Fix Station for expert Apple laptop repairs. Fix MacBook Pro issues including screen, battery, charging, liquid damage, and performance problems.",
+        heroDescription:
+            "Mac Fix Station is dedicated to diagnosing and repairing Apple laptops with a focus on reliability, performance, and long-term usability. A MacBook that shuts down unexpectedly, refuses to charge, overheats, or shows display problems can quickly disrupt work, studies, editing projects, and daily communication.",
+        highlights: [
+            "Experienced Apple Technicians",
+            "Intel & Apple Silicon Support",
+            "Detailed Hardware Diagnostics",
+            "Post-Repair Functional Testing"
+        ],
+        sections: [
+            {
+                id:"common-services",
+                title: "Common Services at Mac Fix Station",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "MacBook problems can develop gradually or appear without warning. To identify the real cause of the issue, we examine the power system, display assembly, storage, cooling system, keyboard, trackpad, and macOS environment."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Our repair services commonly include:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "MacBook not powering on",
+                            "Cracked or flickering display",
+                            "Battery draining too quickly",
+                            "USB-C and charging problems",
+                            "Keyboard and trackpad faults",
+                            "Liquid and spill damage",
+                            "Overheating and excessive fan noise",
+                            "Slow startup and freezing",
+                            "SSD and storage failures",
+                            "macOS boot and update errors",
+                            "Data backup and recovery support"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "This structured diagnostic process helps ensure that repairs are targeted, effective, and appropriate for the condition of the device."
+                    }
+                ]
+            },
+            {
+                id:"fix-macbook-pro",
+                title: "Fix MacBook Pro for Screen, Battery, and Performance Problems",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "MacBook Pro models are often used for demanding tasks such as video editing, software development, design work, music production, and multitasking. When performance drops or hardware problems appear, specialized troubleshooting becomes important."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Our Fix MacBook Pro service is designed to address issues such as:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Display backlight and cable faults",
+                            "Random shutdowns during heavy use",
+                            "Battery service warnings",
+                            "Charging instability",
+                            "Logic board and power circuit problems",
+                            "Speaker and audio issues",
+                            "Thermal throttling and overheating",
+                            "External display connection problems"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "After the repair is completed, the MacBook Pro is tested for charging stability, display quality, keyboard and trackpad response, battery behavior, thermal performance, and overall system reliability."
+                    }
+                ]
+            },
+            {
+                id:"preventive-maintenance",
+                title: "Preventive Maintenance for Apple Laptops",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Regular maintenance can help reduce the risk of unexpected failures and improve the long-term performance of a MacBook. Heat, dust buildup, aging batteries, and storage wear often develop slowly before causing noticeable problems."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Benefits of preventive maintenance include:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Faster everyday performance",
+                            "Better battery efficiency",
+                            "Lower operating temperatures",
+                            "Reduced fan noise",
+                            "Improved storage reliability",
+                            "Fewer unexpected shutdowns",
+                            "Longer lifespan of internal components"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Preventive care is especially useful for professionals, students, remote workers, designers, developers, and anyone who relies heavily on a MacBook throughout the day."
+                    }
+                ]
+            },
+            {
+                id:"why-choose-us",
+                title: "Why Choose Mac Fix Station?",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Repairing Apple laptops requires experience with compact internal designs, model-specific components, and careful handling of sensitive hardware. We focus on clear communication, accurate troubleshooting, and repairs that are based on proper diagnosis."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Customers choose Mac Fix Station because we provide:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Experienced Apple laptop technicians",
+                            "Support for Intel and Apple silicon models",
+                            "Detailed hardware diagnostics",
+                            "High-quality replacement components",
+                            "Clear repair recommendations",
+                            "Fair and transparent pricing",
+                            "Timely repair updates",
+                            "Post-repair functional testing"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Whether you need a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced troubleshooting, Mac Fix Station is committed to delivering dependable repair support and restoring reliable MacBook performance."
+                    }
+                ]
+            }
+        ],
+        faqs:[
+            {
+                question:"What services are available at Mac Fix Station?",
+                answer:
+                "Mac Fix Station provides screen replacement, battery replacement, charging-port repair, keyboard and trackpad repair, liquid-damage treatment, SSD replacement, macOS troubleshooting, data backup assistance, and hardware diagnostics for Apple laptops."
+            },
+            {
+                question:"Can you fix MacBook Pro models with complex hardware issues?",
+                answer:
+                "Yes. We handle many advanced MacBook Pro problems, including logic board faults, charging instability, display backlight issues, overheating, and recurring performance-related hardware failures."
+            },
+            {
+                question:"Do you repair liquid-damaged MacBooks?",
+                answer:
+                "Yes. Liquid-damaged MacBooks can be inspected for corrosion, power issues, keyboard damage, and logic-board faults. The repair depends on the extent of the liquid exposure and the condition of the affected components."
+            },
+            {
+                question:"How long does it take to fix a MacBook Pro?",
+                answer:
+                "Repair time depends on the model, the type of fault, the diagnostic findings, and the availability of replacement parts."
+            },
+            {
+                question:"Do you replace MacBook batteries?",
+                answer:
+                "Yes. We provide battery replacement for MacBooks with reduced battery life, charging problems, service warnings, or physical battery swelling."
+            },
+            {
+                question:"Is preventive maintenance useful even if my MacBook is working normally?",
+                answer:
+                "Yes. Preventive maintenance can help identify overheating, battery wear, storage issues, and other developing problems before they lead to major repairs or data loss."
+            }
+        ]
+    },
+    {
+        slug: "macbook-screen-repair",
+        title: "MacBook Screen Repair",
+        shortTitle: "MacBook Screen Repair",
+        tagline: "MacBook Pro Screen Replacement Experts",
+        icon: ShoppingBag,
+        accent: "from-brand-500 to-brand-600",
+        category: "repair",
+
+        metaTitle:
+            "MacBook Screen Repair | MacBook Pro Screen Replacement Experts",
+        metaDescription:
+            "Get professional MacBook screen repair for cracked, flickering, black, or damaged displays. Expert MacBook Pro screen replacement and fix MacBook Pro screen support.",
+        heroDescription:
+            "A damaged MacBook screen can make even a fully functional laptop difficult to use. Cracks, black spots, flickering, vertical lines, dim backlight, or an unresponsive display can affect work, studies, editing, and everyday tasks.",
+        highlights: [
+            "Experienced Apple Repair Technicians",
+            "Specialized Pro Screen Replacement",
+            "High-Quality Replacement Components",
+            "Post-Repair Display Testing"
+        ],
+        sections: [
+            {
+                id:"common-screen-problems",
+                title: "Common MacBook Screen Repair Problems",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Display issues are not always limited to the front glass. A MacBook may show symptoms that originate from the screen panel, backlight, display cable, or other internal components."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "We commonly repair:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Cracked MacBook screens",
+                            "Black or blank displays",
+                            "Flickering screens",
+                            "Vertical or horizontal lines",
+                            "Backlight not working",
+                            "Dim display",
+                            "Screen discoloration",
+                            "Dead pixels",
+                            "Display cable issues",
+                            "Screen not responding after a drop"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Our technicians perform detailed testing to determine whether the problem requires a screen repair, cable replacement, backlight repair, or a complete display assembly replacement."
+                    }
+                ]
+            },
+            {
+                id:"macbook-pro-screen-replacement",
+                title: "MacBook Pro Screen Replacement for Damaged Displays",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "MacBook Pro models use high-resolution Retina displays that require precise handling during repair. If the display is physically damaged or the panel has failed internally, MacBook Pro screen replacement may be the most effective solution."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Signs that you may need MacBook Pro screen replacement include:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Visible cracks in the display",
+                            "Ink-like black spots spreading on the screen",
+                            "Severe flickering",
+                            "No image on the display",
+                            "Backlight failure",
+                            "Touch Bar or display-related issues after impact"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "During MacBook Pro screen replacement, the display assembly is installed carefully and tested for brightness, color accuracy, backlight performance, and overall display stability."
+                    }
+                ]
+            },
+            {
+                id:"fix-macbook-pro-screen",
+                title: "Fix MacBook Pro Screen for Flickering, Lines, and Backlight Issues",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Not every display problem requires a full replacement. In some cases, it is possible to fix MacBook Pro screen issues caused by loose connections, damaged display cables, backlight faults, or other related components."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "We commonly fix MacBook Pro screen problems such as:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Intermittent flickering",
+                            "Screen working only at certain angles",
+                            "Backlight turning off unexpectedly",
+                            "Colored lines appearing on the display",
+                            "Image distortion",
+                            "Display freezing or flashing"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "After the repair, the MacBook Pro is tested for screen stability, brightness consistency, cable integrity, and overall visual performance."
+                    }
+                ]
+            },
+            {
+                id:"preventive-care",
+                title: "Preventive Care for MacBook Displays",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "MacBook displays are thin and sensitive to pressure, impact, and liquid exposure. Proper handling can help reduce the risk of expensive screen repairs."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Helpful preventive measures include:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Avoid placing objects between the keyboard and screen",
+                            "Use a protective sleeve during travel",
+                            "Keep liquids away from the display area",
+                            "Open the MacBook from the center",
+                            "Avoid excessive pressure on the lid",
+                            "Clean the screen with appropriate materials"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Preventive care can help maintain display quality and reduce the chances of accidental screen damage."
+                    }
+                ]
+            },
+            {
+                id:"why-choose-us",
+                title: "Why Choose Our MacBook Screen Repair Service?",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Screen repairs require careful handling of delicate Apple display components. We focus on accurate diagnosis, proper installation, and thorough testing before returning the device."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Customers choose our service because we provide:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Experienced Apple repair technicians",
+                            "Support for multiple MacBook models",
+                            "Specialized MacBook Pro screen replacement service",
+                            "Careful display assembly handling",
+                            "High-quality replacement components",
+                            "Transparent repair recommendations",
+                            "Timely service updates",
+                            "Post-repair display testing"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Whether your MacBook has a cracked screen, flickering display, backlight problem, or internal display fault, our MacBook screen repair service is designed to restore clear and dependable screen performance."
+                    }
+                ]
+            }
+        ],
+        faqs:[
+            {
+                question:"What is included in your MacBook screen repair service?",
+                answer:
+                "Our MacBook screen repair service includes display diagnostics, screen replacement, backlight testing, display cable inspection, hinge-area checks, and post-repair display performance testing."
+            },
+            {
+                question:"When is MacBook Pro screen replacement necessary?",
+                answer:
+                "MacBook Pro screen replacement is usually recommended when the display is cracked, shows spreading black spots, has severe flickering, no image, or has suffered internal panel damage."
+            },
+            {
+                question:"Can you fix MacBook Pro screen issues without replacing the display?",
+                answer:
+                "Yes. Some problems such as loose display connections, damaged cables, or backlight-related faults may be repairable without replacing the entire screen assembly."
+            },
+            {
+                question:"How long does MacBook screen repair usually take?",
+                answer:
+                "Repair time depends on the MacBook model, the type of display damage, diagnostic findings, and the availability of replacement parts."
+            },
+            {
+                question:"Will the new screen be tested after repair?",
+                answer:
+                "Yes. Every repaired MacBook is tested for brightness, color accuracy, backlight performance, flickering, and overall display stability before delivery."
+            },
+            {
+                question:"Can liquid damage affect the MacBook screen?",
+                answer:
+                "Yes. Liquid exposure can damage the display panel, backlight circuit, or display cable, which is why a detailed inspection is recommended if a spill has occurred."
+            }
+        ]
+    },
+    {
+        slug: "apple-macbook-repair",
+        title: "Apple MacBook Repair",
+        shortTitle: "Apple MacBook Repair",
+        tagline: "Apple MacBook Repair Centre for Screen & Battery Issues",
+        icon: ShoppingBag,
+        accent: "from-brand-500 to-brand-600",
+        category: "repair",
+
+        metaTitle:
+            "Apple MacBook Repair | Apple MacBook Repair Centre for Screen & Battery Issues",
+        metaDescription:
+            "Get expert Apple MacBook repair for screen, battery, charging, liquid damage, and startup issues. Trusted Apple MacBook repair centre for reliable laptop repairs.",
+        heroDescription:
+            "A MacBook is often used for work, study, design, development, editing, and daily communication, so even a small hardware problem can become a major inconvenience. Our Apple MacBook repair service is focused on diagnosing Apple laptop issues accurately and restoring stable performance with careful, model-specific repair solutions.",
+        highlights: [
+            "Experienced Apple Technicians",
+            "Intel & Apple Silicon Support",
+            "Detailed Hardware Diagnostics",
+            "Post-Repair Functional Testing"
+        ],
+        sections: [
+            {
+                id:"common-services",
+                title: "Common Apple MacBook Repair Services",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "MacBook problems can affect multiple components at the same time, which is why proper testing is essential before replacing any part. Our repair process includes checking the display, battery, charging circuit, storage, cooling system, keyboard, trackpad, and macOS environment."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Our Apple MacBook repair service commonly includes:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "MacBook not turning on",
+                            "Cracked or flickering screens",
+                            "Battery draining quickly",
+                            "USB-C and charging issues",
+                            "Keyboard and trackpad faults",
+                            "Liquid and spill damage",
+                            "Overheating and fan noise",
+                            "Slow startup and freezing",
+                            "SSD and storage failures",
+                            "macOS boot and update errors",
+                            "Data backup and recovery support"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "This systematic approach helps identify the real source of the problem and avoids unnecessary part replacement."
+                    }
+                ]
+            },
+            {
+                id:"repair-centre",
+                title: "Apple MacBook Repair Centre for Advanced Hardware Problems",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Some MacBook issues require deeper troubleshooting beyond standard repairs. Our Apple MacBook repair centre is equipped to handle complex hardware and performance-related faults that may involve multiple internal components."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "We commonly address:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Random shutdowns during use",
+                            "Display backlight and cable faults",
+                            "Battery service warnings",
+                            "Logic board and power circuit failures",
+                            "Charging instability",
+                            "Audio and speaker problems",
+                            "Performance drops under heavy workloads",
+                            "External display connection issues"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "After repair, the MacBook is tested for charging stability, display quality, keyboard and trackpad operation, battery behavior, thermal performance, and overall system reliability."
+                    }
+                ]
+            },
+            {
+                id:"preventive-maintenance",
+                title: "Preventive Maintenance for Long-Term MacBook Performance",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Regular maintenance can help reduce the risk of unexpected failures and improve the long-term health of a MacBook. Heat, dust accumulation, battery wear, and storage degradation often develop gradually before causing noticeable problems."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Benefits of preventive maintenance include:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Faster everyday performance",
+                            "Better battery efficiency",
+                            "Lower operating temperatures",
+                            "Reduced fan noise",
+                            "Improved storage reliability",
+                            "Fewer unexpected shutdowns",
+                            "Longer lifespan of internal components"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Preventive care is especially useful for professionals, students, remote workers, designers, developers, and anyone who uses a MacBook for extended hours each day."
+                    }
+                ]
+            },
+            {
+                id:"why-choose-us",
+                title: "Why Choose Our Apple MacBook Repair Service?",
+                blocks:[
+                    {
+                        type:"paragraph",
+                        content:
+                        "Repairing Apple laptops requires experience with compact internal designs, model-specific components, and careful handling of sensitive hardware. We focus on accurate diagnosis, clear communication, and repairs that are based on proper testing rather than guesswork."
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Customers choose our Apple MacBook repair service because we provide:"
+                    },
+                    {
+                        type:"list",
+                        items:[
+                            "Experienced Apple laptop technicians",
+                            "Support for Intel and Apple silicon models",
+                            "Detailed hardware diagnostics",
+                            "High-quality replacement components",
+                            "Clear repair recommendations",
+                            "Fair and transparent pricing",
+                            "Timely repair updates",
+                            "Post-repair functional testing"
+                        ]
+                    },
+                    {
+                        type:"paragraph",
+                        content:
+                        "Whether you need a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced hardware troubleshooting, our Apple MacBook repair team is committed to restoring dependable performance with professional support."
+                    }
+                ]
+            }
+        ],
+        faqs:[
+            {
+                question:"What is included in your Apple MacBook repair service?",
+                answer:
+                "Our Apple MacBook repair service includes screen replacement, battery replacement, charging-port repair, keyboard and trackpad repair, liquid-damage treatment, SSD replacement, macOS troubleshooting, data backup assistance, and hardware diagnostics."
+            },
+            {
+                question:"What services are available at your Apple MacBook repair centre?",
+                answer:
+                "Our Apple MacBook repair centre handles advanced troubleshooting for logic board faults, charging instability, display problems, overheating, audio issues, and recurring performance-related hardware failures."
+            },
+            {
+                question:"Can you repair a liquid-damaged MacBook?",
+                answer:
+                "Yes. Liquid-damaged MacBooks can be inspected for corrosion, power issues, keyboard damage, and logic-board faults. The repair depends on the extent of the liquid exposure and the condition of the affected components."
+            },
+            {
+                question:"How long does Apple MacBook repair usually take?",
+                answer:
+                "Repair time depends on the MacBook model, the type of problem, the diagnostic findings, and the availability of replacement parts."
+            },
+            {
+                question:"Do you replace MacBook batteries?",
+                answer:
+                "Yes. We provide battery replacement for MacBooks with reduced battery life, charging problems, service warnings, or physical battery swelling."
+            },
+            {
+                question:"Is preventive maintenance useful even if my MacBook is working normally?",
+                answer:
+                "Yes. Preventive maintenance can help identify overheating, battery wear, storage issues, and other developing problems before they lead to major repairs or data loss."
+            }
+        ]
+    }
 ];
 
 export function getSEOPageBySlug(

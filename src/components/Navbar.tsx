@@ -54,8 +54,12 @@ export function Navbar() {
       <nav className="container-px flex h-16 items-center justify-between gap-4 lg:h-18">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2.5 shrink-0" aria-label="Meridian InfoTech Solutions home">
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-accent-500 shadow-lg shadow-brand-500/30">
-            <Laptop className="h-5 w-5 text-white" strokeWidth={2.5} />
+          <span className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-xl bg-white shadow-lg shadow-brand-500/20">
+            <img
+              src="/logo.webp"
+              alt="Meridian Infotech Solutions"
+              className="h-full w-full object-contain p-1"
+            />
           </span>
           <span className="flex flex-col leading-none">
             <span className="font-display text-base font-700 tracking-tight text-ink-900 dark:text-ink-50">

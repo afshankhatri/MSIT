@@ -10,12 +10,12 @@ export const companyInfo = {
   whatsapp: 'https://wa.me/9152549454?text=Hi%20Meridian%20IT%20Solutions,%20I%20visited%20your%20website%20and%20would%20like%20to%20know%20more%20about%20your%20services.',
   address: '3, mezzanine floor, plot 133, arafat palace,nawroji hill road ,1st road,chinch-bunder,Mumbai 400009',
   social: {
-    facebook: 'https://facebook.com',
-    instagram: 'https://instagram.com',
-    linkedin: 'https://linkedin.com',
-    twitter: 'https://twitter.com',
+    facebook: 'https://www.facebook.com/profile.php?id=61592486051081',
+    instagram: 'https://www.instagram.com/m_it_sol/',
+    linkedin: 'https://www.linkedin.com/company/meridian-infotech-solutions/',
+    twitter: 'https://x.com/m_it_sol',
   },
-  reviewsUrl: 'https://www.google.com/maps',
+  reviewsUrl: 'https://www.google.com/search?q=Meridian+Infotech+Solutions+&sca_esv=2afcaab3ea49a2cf&rlz=1C1ONGR_enIN1178IN1178&biw=1536&bih=743&sxsrf=APpeQnvCQrJIJK_C5iVPL8h78B775mTFew%3A1785477987645&ei=Yztsaq_4JuCI4-EP__-1wQw&ved=0ahUKEwjvtdTpn_yVAxVgxDgGHf9_LcgQ4dUDCBA&uact=5&oq=Meridian+Infotech+Solutions+&gs_lp=Egxnd3Mtd2l6LXNlcnAiHE1lcmlkaWFuIEluZm90ZWNoIFNvbHV0aW9ucyBIAFAAWABwAHgAkAEAmAEAoAEAqgEAuAEDyAEAmAIAoAIAmAMAkgcAoAcAsgcAuAcAwgcAyAcAgAgB&sclient=gws-wiz-serp#lrd=0x3be7cf081f036933:0x795dd73dbc7a0b1d,3,,,,',
 };
 
 export const stats = [
