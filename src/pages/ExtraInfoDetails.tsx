@@ -12,13 +12,38 @@ import { companyInfo } from '@/data/company';
 const DEFAULT_ACCENT = 'from-brand-500 to-brand-600';
 const DefaultIcon = Info;
 
+function renderRichText(content: string) {
+  const parts = content.split(/(\[[^\]]+\]\([^)]+\))/g);
+
+  return parts.map((part, index) => {
+    const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+
+    if (!match) {
+      return <span key={index}>{part}</span>;
+    }
+
+    const [, label, href] = match;
+
+    return (
+      <Link
+        key={index}
+        to={href}
+        className="text-brand-600 underline decoration-brand-300 underline-offset-2 transition-colors hover:text-brand-700 dark:text-brand-400 dark:hover:text-brand-300"
+      >
+        {label}
+      </Link>
+    );
+  });
+}
+
 function SectionBlockRenderer({ block }: { block: SectionBlock }) {
   switch (block.type) {
     case 'paragraph': {
       if (!block.content) return null;
+
       return (
         <p className="text-sm leading-relaxed text-ink-600 dark:text-ink-300 sm:text-base">
-          {block.content}
+          {renderRichText(block.content)}
         </p>
       );
     }
@@ -97,13 +122,13 @@ export default function SEOPageDetail() {
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Service',
+    '@type': 'Service', 
     name: page.title,
     description: page.metaDescription,
     provider: {
       '@type': 'LocalBusiness',
       name: companyInfo.name,
-      telephone: companyInfo.phone,
+      telephone: companyInfo.phones.map((phone) => phone.number),
     },
     areaServed: 'Regional',
     ...(hasFaqs && {
@@ -161,10 +186,18 @@ export default function SEOPageDetail() {
                   Get Started
                   <ArrowRight className="h-4 w-4" />
                 </Link>
-                <a href={`tel:${companyInfo.phone}`} className="btn-secondary">
-                  <Phone className="h-4 w-4" />
-                  Call Us
-                </a>
+                <div className="flex flex-wrap gap-3">
+                  {companyInfo.phones.map((phone) => (
+                    <a
+                      key={phone.number}
+                      href={phone.tel}
+                      className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-7 py-3.5 text-sm font-700 text-white backdrop-blur-sm transition-all hover:bg-white/20"
+                    >
+                      <Phone className="h-4 w-4" />
+                      {phone.label}
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
 

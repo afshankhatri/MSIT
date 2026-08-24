@@ -34,13 +34,18 @@ export function CtaSection({
               Get a Free Quote
               <ArrowRight className="h-4 w-4" />
             </Link>
+        <div className="flex flex-wrap gap-3">
+          {companyInfo.phones.map((phone) => (
             <a
-              href={`tel:${companyInfo.phone}`}
+              key={phone.number}
+              href={phone.tel}
               className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-7 py-3.5 text-sm font-700 text-white backdrop-blur-sm transition-all hover:bg-white/20"
             >
               <Phone className="h-4 w-4" />
-              Call Us
+              {phone.label}
             </a>
+          ))}
+        </div>
             <a
               href={companyInfo.whatsapp}
               target="_blank"

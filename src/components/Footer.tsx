@@ -134,10 +134,18 @@ export function Footer() {
             <h3 className="text-sm font-700 text-ink-900 dark:text-ink-50">Get in Touch</h3>
             <ul className="mt-4 space-y-3">
               <li>
-                <a href={`tel:${companyInfo.phone}`} className="flex items-start gap-2.5 text-sm text-ink-500 dark:text-ink-400 hover:text-brand-600 dark:hover:text-brand-400">
-                  <Phone className="mt-0.5 h-4 w-4 shrink-0 text-brand-500" />
-                  {companyInfo.phone}
-                </a>
+                <div className="flex flex-wrap gap-3">
+                  {companyInfo.phones.map((phone) => (
+                    <a
+                      key={phone.number}
+                      href={phone.tel}
+                      className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-7 py-3.5 text-sm font-700 text-white backdrop-blur-sm transition-all hover:bg-white/20"
+                    >
+                      <Phone className="h-4 w-4" />
+                      {phone.label}
+                    </a>
+                  ))}
+                </div>
               </li>
               <li>
                 <a href={`mailto:${companyInfo.email}`} className="flex items-start gap-2.5 text-sm text-ink-500 dark:text-ink-400 hover:text-brand-600 dark:hover:text-brand-400">
@@ -208,8 +216,16 @@ export function Footer() {
               to="/sitemap"
               className="text-xs text-ink-400 dark:text-ink-500 hover:text-brand-600 dark:hover:text-brand-400"
             >
-              Sitemap
+              HTML Sitemap
             </Link>
+            <a
+              href="/sitemap.xml"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-ink-400 dark:text-ink-500 hover:text-brand-600 dark:hover:text-brand-400"
+            >
+              XML Sitemap
+            </a>
             <Link to="/faq" className="text-xs text-ink-400 dark:text-ink-500 hover:text-brand-600 dark:hover:text-brand-400">Terms of Service</Link>
             <Link to="/contact" className="text-xs text-ink-400 dark:text-ink-500 hover:text-brand-600 dark:hover:text-brand-400">Support</Link>
           </div>

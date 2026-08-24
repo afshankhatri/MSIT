@@ -18,7 +18,7 @@ export default function HomePage() {
     '@type': 'LocalBusiness',
     name: companyInfo.name,
     description: companyInfo.description,
-    telephone: companyInfo.phone,
+    telephone: companyInfo.phones.map((phone) => phone.number),
     email: companyInfo.email,
     address: {
       '@type': 'PostalAddress',

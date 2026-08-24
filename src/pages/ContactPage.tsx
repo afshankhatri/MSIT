@@ -86,18 +86,29 @@ export default function ContactPage() {
             </p>
 
             <div className="mt-6 space-y-3">
-              <a
-                href={`tel:${companyInfo.phone}`}
-                className="group flex items-center gap-4 rounded-2xl border border-ink-200 dark:border-ink-800 bg-white dark:bg-ink-900 p-4 shadow-sm transition-all hover:shadow-lg hover:-translate-y-0.5"
-              >
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
-                  <Phone className="h-5 w-5" />
-                </span>
-                <div className="flex-1">
-                  <p className="text-sm font-700 text-ink-900 dark:text-ink-50">Phone</p>
-                  <p className="text-sm text-ink-500 dark:text-ink-400">{companyInfo.phone}</p>
-                </div>
-              </a>
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+                {companyInfo.phones.map((phone) => (
+                  <a
+                    key={phone.number}
+                    href={phone.tel}
+                    className="group flex items-center gap-3 rounded-2xl border border-ink-200 dark:border-ink-800 bg-white dark:bg-ink-900 p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
+                  >
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+                      <Phone className="h-5 w-5" />
+                    </span>
+
+                    <div className="min-w-0">
+                      <p className="text-sm font-700 text-ink-900 dark:text-ink-50">
+                        {phone.label}
+                      </p>
+
+                      <p className="truncate text-sm text-ink-500 dark:text-ink-400">
+                        {phone.number}
+                      </p>
+                    </div>
+                  </a>
+                ))}
+              </div>
 
               <a
                 href={`mailto:${companyInfo.email}`}

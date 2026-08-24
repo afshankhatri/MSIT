@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Phone, Sparkles, ShieldCheck, Zap, Wrench } from 'lucide-react';
+import { ArrowRight, Phone, Sparkles, ShieldCheck, Zap, Wrench, ChevronDown,  } from 'lucide-react';
 import { companyInfo } from '@/data/company';
+import { useState, useRef, useEffect } from "react";
+
+
 
 const trustBadges = [
   { icon: ShieldCheck, label: '8+ Years' },
@@ -11,8 +14,31 @@ const trustBadges = [
 ];
 
 export function HeroSection() {
+
+  const [isPhoneMenuOpen, setIsPhoneMenuOpen] = useState(false);
+  const phoneMenuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        phoneMenuRef.current &&
+        !phoneMenuRef.current.contains(event.target as Node)
+      ) {
+        setIsPhoneMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+
+
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-visible">
       {/* Background */}
       <div className="pointer-events-none absolute inset-0 bg-grid-light dark:bg-grid-dark opacity-40" />
       <div className="pointer-events-none absolute -top-40 -left-20 h-96 w-96 rounded-full bg-brand-500/15 blur-3xl" />
@@ -43,9 +69,9 @@ export function HeroSection() {
               transition={{ duration: 0.6, delay: 0.08 }}
               className="mt-5 text-balance font-display text-4xl font-700 leading-[1.08] tracking-tight text-ink-900 dark:text-ink-50 sm:text-5xl lg:text-6xl"
             >
-              IT maintenance & repair,{" "}
-              <span className="text-gradient">done right</span> —{" "}
-              the first time.
+              Mumbai’s Trusted Service Center{" "}
+              <span className="text-gradient">for Laptop, Computer Repair</span> {" "}
+              & IT Support.
             </motion.h1>
 
             <motion.p
@@ -54,32 +80,73 @@ export function HeroSection() {
               transition={{ duration: 0.6, delay: 0.16 }}
               className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-ink-600 dark:text-ink-300 sm:text-lg"
             >
-              From laptop screens to full-scale business AMCs, Meridian InfoTech Solutions
-              keeps your technology running. Certified technicians, genuine parts, and
-              honest pricing trusted by 320+ businesses.
+              Meridian InfoTech Solutions provides laptop repair, computer repair, laptop maintenance, MacBook repair, iPhone and iPad service, office IT setup, networking, AMC and IT support in Mumbai. We specialize in Apple devices and provide free pickup & delivery, free diagnosis, same-day repair service, refurbished laptops and devices, and reliable technology support for individuals, professionals and businesses.
             </motion.p>
 
-            <motion.div
-              initial={{ opacity: 0, y: 24 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.24 }}
-              className="mt-7 flex flex-col gap-3 sm:flex-row"
-            >
-              <Link to="/contact" className="btn-primary">
-                Get a Free Quote
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-              <Link to="/services" className="btn-secondary">
-                Explore Services
-              </Link>
-              <a
-                href={`tel:${companyInfo.phone}`}
-                className="btn-ghost"
-              >
-                <Phone className="h-4 w-4" />
-                {companyInfo.phone}
-              </a>
-            </motion.div>
+<motion.div
+  initial={{ opacity: 0, y: 24 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.24 }}
+  className="relative z-30 mt-7 flex flex-col gap-3 sm:flex-row"
+>
+  <Link to="/contact" className="btn-primary">
+    Get a Free Quote
+    <ArrowRight className="h-4 w-4" />
+  </Link>
+
+  <Link to="/services" className="btn-secondary">
+    Explore Services
+  </Link>
+
+  {/* Phone Dropdown */}
+  <div className="relative">
+    <button
+      type="button"
+      onClick={() => setIsPhoneMenuOpen((prev) => !prev)}
+      className="btn-ghost"
+      aria-haspopup="menu"
+      aria-expanded={isPhoneMenuOpen}
+    >
+      <Phone className="h-4 w-4" />
+      +918689868720
+      <ChevronDown
+        className={`h-4 w-4 transition-transform duration-200 ${
+          isPhoneMenuOpen ? "rotate-180" : ""
+        }`}
+      />
+    </button>
+
+    {isPhoneMenuOpen && (
+      <div
+        role="menu"
+        className="absolute left-0 top-full z-[100] mt-2 w-72 overflow-hidden rounded-2xl border border-gray-200 bg-white p-1.5 shadow-2xl"
+      >
+        {companyInfo.phones.map((phone) => (
+          <a
+            key={phone.number}
+            href={phone.tel}
+            role="menuitem"
+            onClick={() => setIsPhoneMenuOpen(false)}
+            className="flex items-center gap-3 rounded-xl px-3 py-3 transition-colors hover:bg-gray-100"
+          >
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gray-100">
+              <Phone className="h-4 w-4 text-gray-700" />
+            </span>
+
+            <span className="flex min-w-0 flex-col">
+              <span className="text-sm font-semibold text-gray-900">
+                {phone.label}
+              </span>
+              <span className="text-xs text-gray-500">
+                {phone.number}
+              </span>
+            </span>
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</motion.div>
 
             {/* Trust badges */}
             <motion.div

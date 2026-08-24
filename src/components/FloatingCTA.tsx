@@ -7,7 +7,7 @@ export function FloatingCTA() {
     <>
       {/* Call CTA - Bottom Left */}
       <a
-        href={`tel:${companyInfo.phone}`}
+        href={`tel: +918689868720`}
         aria-label={`Call ${companyInfo.name}`}
         style={{ animationDelay: '0.8s' }}
         className="

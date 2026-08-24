@@ -28,7 +28,7 @@ export default function ServiceDetailPage() {
     provider: {
       '@type': 'LocalBusiness',
       name: companyInfo.name,
-      telephone: companyInfo.phone,
+      telephone: companyInfo.phones.map((phone) => phone.number),
     },
     areaServed: 'Regional',
     offers: {
@@ -81,10 +81,18 @@ export default function ServiceDetailPage() {
                   Request This Service
                   <ArrowRight className="h-4 w-4" />
                 </Link>
-                <a href={`tel:${companyInfo.phone}`} className="btn-secondary">
-                  <Phone className="h-4 w-4" />
-                  Call Us
-                </a>
+                  <div className="flex flex-wrap gap-3">
+                    {companyInfo.phones.map((phone) => (
+                      <a
+                        key={phone.number}
+                        href={phone.tel}
+                        className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 bg-white/10 px-7 py-3.5 text-sm font-700 text-white backdrop-blur-sm transition-all hover:bg-white/20"
+                      >
+                        <Phone className="h-4 w-4" />
+                        {phone.label}
+                      </a>
+                    ))}
+                  </div>
               </div>
             </div>
 

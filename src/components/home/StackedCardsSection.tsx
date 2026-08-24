@@ -16,7 +16,7 @@ const cards: CardData[] = [
     icon: ShieldCheck,
     title: 'Trust Built Over a Decade',
     description:
-      'Since 2011, we have been the IT partner that businesses and individuals rely on. Over 8,500 devices repaired and 320+ businesses on active maintenance contracts — our track record speaks for itself.',
+      'Since 2018, we have been the IT partner that businesses and individuals rely on. Over 8,500 devices repaired and 320+ businesses on active maintenance contracts — our track record speaks for itself.',
     stat: '8+',
     statLabel: 'Years of Service',
     gradient: 'from-brand-500 to-brand-700',
@@ -26,7 +26,7 @@ const cards: CardData[] = [
     title: 'Expert Repairs, Every Device',
     description:
       'Laptops, desktops, tablets, phones — we service every brand and every model. Certified technicians, genuine parts, and a 90-day warranty on every repair. If it has a screen or a circuit, we can fix it.',
-    stat: '8500+',
+    stat: '10000+',
     statLabel: 'Devices Repaired',
     gradient: 'from-accent-500 to-accent-700',
   },

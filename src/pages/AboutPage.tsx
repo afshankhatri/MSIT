@@ -33,7 +33,7 @@ export default function AboutPage() {
   return (
     <>
       <Seo
-        title="About Us — Established IT Service Provider Since 2011"
+        title="About Us — Established IT Service Provider Since 2018"
         description={`Learn about ${companyInfo.name} — an established IT maintenance and repair company serving individuals and businesses for over a decade.`}
         canonicalPath="/about"
         jsonLd={jsonLd}

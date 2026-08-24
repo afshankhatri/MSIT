@@ -5,13 +5,29 @@ export const companyInfo = {
   description:
     'Meridian InfoTech Solutions is an established computer and IT maintenance service provider with over a decade of experience. We serve individuals and businesses with comprehensive IT services — from laptop and computer repair to AMC contracts, refurbished device sales, and responsible e-waste management.',
   foundedYear: 2018,
-  phone: '+919152549454',
+  phones: [
+    {
+      label: 'General Enquiries',
+      number: '+918689868720',
+      tel: 'tel:+918689868720',
+    },
+    {
+      label: 'Alternate Contact',
+      number: '+919152549454',
+      tel: 'tel:+919152549454',
+    },
+    {
+      label: 'Repair Support',
+      number: '+919930919588',
+      tel: 'tel:+919930919588',
+    },
+  ],
   email: 'help@meridianinfotechsolutions.in',
-  whatsapp: 'https://wa.me/9152549454?text=Hi%20Meridian%20IT%20Solutions,%20I%20visited%20your%20website%20and%20would%20like%20to%20know%20more%20about%20your%20services.',
-  address: '3, mezzanine floor, plot 133, arafat palace,nawroji hill road ,1st road,chinch-bunder,Mumbai 400009',
+  whatsapp: 'https://wa.me/8689868720?text=Hi%20Meridian%20IT%20Solutions,%20I%20visited%20your%20website%20and%20would%20like%20to%20know%20more%20about%20your%20services.',
+  address: '4, mezzanine floor, plot 133, arafat palace,nawroji hill road ,1st road,chinch-bunder,Mumbai 400009',
   social: {
-    facebook: 'https://www.facebook.com/profile.php?id=61592486051081',
-    instagram: 'https://www.instagram.com/m_it_sol/',
+    facebook: 'https://www.facebook.com/people/Meridian-InfoTech-Solutions/61592486051081/',
+    instagram: 'https://www.instagram.com/meridianinfotechsolutions_/',
     linkedin: 'https://www.linkedin.com/company/meridian-infotech-solutions/',
     twitter: 'https://x.com/m_it_sol',
   },
@@ -19,9 +35,9 @@ export const companyInfo = {
 };
 
 export const stats = [
-  { value: 8, suffix: '+', label: 'Years in Business', sublabel: 'Serving since 2011' },
+  { value: 8, suffix: '+', label: 'Years in Business', sublabel: 'Serving since 2018' },
   { value: 10000, suffix: '+', label: 'Devices Repaired', sublabel: 'Laptops, desktops, tablets & phones' },
-  { value: 320, suffix: '+', label: 'Business Clients', sublabel: 'On active AMC contracts' },
+  { value: 50, suffix: '+', label: 'Business Clients', sublabel: 'On active AMC contracts' },
   { value: 98, suffix: '%', label: 'Satisfaction Rate', sublabel: 'Based on customer feedback' },
 ];
 

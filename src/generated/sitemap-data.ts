@@ -114,7 +114,11 @@ export const sitemapSections: SitemapSection[] = [
     "links": [
       {
         "label": "Dongri Branch",
-        "to": "/locations/SOBO"
+        "to": "/locations/sobo"
+      },
+      {
+        "label": "Infinity Mobile Kurla",
+        "to": "/locations/kurla"
       }
     ]
   },

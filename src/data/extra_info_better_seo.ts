@@ -2883,7 +2883,7 @@ export const seoPages: SEOPage[] = [
                     {
                         type:"paragraph",
                         content:
-                        "Whether your iPhone requires a screen replacement, battery service, charging repair, or complete diagnostics, our iPhone repair Mumbai team is equipped to restore reliable performance and minimize downtime."
+  "Whether your iPhone requires a screen replacement, battery service, charging repair, or complete diagnostics, our iPhone repair Mumbai team is equipped to restore reliable performance and minimize downtime. Our services go beyond iPhone repairs. We also offer reliable [Apple Watch Repair](/apple-watch-repair), [MacBook Repair](/macbook-repair), and [Mac Repair](/mac-repair) services for various Apple devices. If you need [MacBook Repair Mumbai](/macbook-repair-mumbai), [MacBook Screen Repair](/macbook-screen-repair), or professional [Apple MacBook Repair](/apple-macbook-repair), our technicians provide efficient solutions. Visit our [Mac Fix Station](/mac-fix-station) for dependable Apple device repair and support."
                     }
                 ]
             }
@@ -3079,7 +3079,7 @@ export const seoPages: SEOPage[] = [
                     {
                         type:"paragraph",
                         content:
-                        "Whether your Apple Watch requires a screen replacement, battery service, charging repair, water damage treatment, or complete diagnostics, our Apple Watch repair team is equipped to restore reliable performance and minimize downtime."
+  "Whether your Apple Watch requires a screen replacement, battery service, charging repair, water damage treatment, or complete diagnostics, our Apple Watch repair team is equipped to restore reliable performance and minimize downtime. Our Apple repair services cover more than just Apple Watch repair. We provide expert [iPhone repairs](/iphone-repair-mumbai), [MacBook repair](/macbook-repair), and [Mac repair services](/mac-repair) for different Apple devices. For customers looking for [MacBook repair Mumbai](/macbook-repair-mumbai), [MacBook screen repair](/macbook-screen-repair), or [Apple MacBook repair](/apple-macbook-repair), our skilled technicians offer reliable repair solutions. You can also visit our [Mac Fix Station](/mac-fix-station) for professional Apple device support."
                     }
                 ]
             }
@@ -3274,8 +3274,8 @@ export const seoPages: SEOPage[] = [
                     },
                     {
                         type:"paragraph",
-                        content:
-                        "Whether your MacBook needs a new screen, battery replacement, keyboard repair, charging-port service, liquid-damage treatment, or advanced logic-board troubleshooting, we aim to provide a repair process that is thorough, reliable, and easy to understand."
+content:
+  "Whether your MacBook needs a new screen, battery replacement, keyboard repair, charging-port service, liquid-damage treatment, or advanced logic-board troubleshooting, we aim to provide a repair process that is thorough, reliable, and easy to understand. Our Apple repair services go beyond MacBook repair. We also provide reliable [Apple Watch repair](/apple-watch-repair), [iPhone repairs](/iphone-repair-mumbai), and [Mac repair services](/mac-repair). Whether you need [MacBook repair in Mumbai](/macbook-repair-mumbai), [MacBook screen repair](/macbook-screen-repair), or [Apple MacBook repair](/apple-macbook-repair), our technicians offer efficient solutions. Visit our [Mac Fix Station](/mac-fix-station) for dependable Apple device repair and support."
                     }
                 ]
             }
@@ -3470,7 +3470,7 @@ export const seoPages: SEOPage[] = [
                     {
                         type:"paragraph",
                         content:
-                        "Whether your Mac requires a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced hardware troubleshooting, our Mac repair team is committed to delivering reliable service and restoring stable performance."
+  "Whether your Mac requires a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced hardware troubleshooting, our Mac repair team is committed to delivering reliable service and restoring stable performance. Our Apple repair services extend beyond Mac repair services, covering [Apple Watch repair](/apple-watch-repair), [iPhone repairs](/iphone-repair-mumbai), and [MacBook repair](/macbook-repair). From [MacBook repair Mumbai](/macbook-repair-mumbai) and [MacBook screen repair](/macbook-screen-repair) to professional [Apple MacBook repair](/apple-macbook-repair), our technicians provide reliable solutions for various Apple device issues. Visit our [Mac Fix Station](/mac-fix-station) for dependable Apple repair and support."
                     }
                 ]
             }
@@ -3664,7 +3664,7 @@ export const seoPages: SEOPage[] = [
                     {
                         type:"paragraph",
                         content:
-                        "Whether you need a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced troubleshooting, our MacBook repair Mumbai team is committed to restoring dependable performance with professional support."
+  "Whether you need a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced troubleshooting, our MacBook repair Mumbai team is committed to restoring dependable performance with professional support. Our Apple repair services extend beyond MacBook repair Mumbai, offering [Apple Watch repair](/apple-watch-repair), [iPhone repairs](/iphone-repair-mumbai), and [MacBook repair](/macbook-repair). We also provide [Mac repair services](/mac-repair), [MacBook screen repair](/macbook-screen-repair), and professional [Apple MacBook repair](/apple-macbook-repair) for various issues. Visit our [Mac Fix Station](/mac-fix-station) for reliable Apple device repair and support."
                     }
                 ]
             }
@@ -3858,7 +3858,7 @@ export const seoPages: SEOPage[] = [
                     {
                         type:"paragraph",
                         content:
-                        "Whether you need a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced troubleshooting, Mac Fix Station is committed to delivering dependable repair support and restoring reliable MacBook performance."
+  "Whether you need a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced troubleshooting, Mac Fix Station is committed to delivering dependable repair support and restoring reliable MacBook performance. Our Mac Fix Station provides comprehensive Apple device repair services, including [MacBook repair Mumbai](/macbook-repair-mumbai), [Apple Watch repair](/apple-watch-repair), [iPhone repairs](/iphone-repair-mumbai), and [MacBook repair](/macbook-repair). We also offer reliable [Mac repair services](/mac-repair), [MacBook screen repair](/macbook-screen-repair), and professional [Apple MacBook repair](/apple-macbook-repair) for a wide range of issues."
                     }
                 ]
             }
@@ -4080,7 +4080,7 @@ export const seoPages: SEOPage[] = [
                     {
                         type:"paragraph",
                         content:
-                        "Whether your MacBook has a cracked screen, flickering display, backlight problem, or internal display fault, our MacBook screen repair service is designed to restore clear and dependable screen performance."
+  "Whether your MacBook has a cracked screen, flickering display, backlight problem, or internal display fault, our MacBook screen repair service is designed to restore clear and dependable screen performance. Our Mac repair services go beyond MacBook screen repair, covering a wide range of Apple device issues. We offer reliable [Apple Watch repair](/apple-watch-repair), [iPhone repairs](/iphone-repair-mumbai), and [MacBook repair](/macbook-repair), along with professional [Mac repair services](/mac-repair) and [MacBook repair Mumbai](/macbook-repair-mumbai). For dependable [Apple MacBook repair](/apple-macbook-repair), visit our [Mac Fix Station](/mac-fix-station), where our technicians provide reliable solutions for various Apple devices."
                     }
                 ]
             }
@@ -4274,7 +4274,7 @@ export const seoPages: SEOPage[] = [
                     {
                         type:"paragraph",
                         content:
-                        "Whether you need a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced hardware troubleshooting, our Apple MacBook repair team is committed to restoring dependable performance with professional support."
+  "Whether you need a screen replacement, battery service, charging repair, liquid-damage treatment, storage replacement, or advanced hardware troubleshooting, our Apple MacBook repair team is committed to restoring dependable performance with professional support. Our Apple repair services go beyond Apple MacBook repair, covering a wide range of Apple devices and repair needs. We offer reliable [Apple Watch repair](/apple-watch-repair), [iPhone repairs](/iphone-repair-mumbai), and [MacBook repair](/macbook-repair), along with professional [Mac repair services](/mac-repair) and [MacBook screen repair](/macbook-screen-repair). For trusted [MacBook repair Mumbai](/macbook-repair-mumbai), visit our [Mac Fix Station](/mac-fix-station) for expert diagnostics and reliable repair solutions."
                     }
                 ]
             }
