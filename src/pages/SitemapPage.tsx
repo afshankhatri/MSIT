@@ -12,7 +12,7 @@ export default function SitemapPage() {
     name: `HTML Sitemap - ${companyInfo.name}`,
     description:
       'An index of the most important public pages on Meridian InfoTech Solutions, organized by section for easy browsing and search engine discovery.',
-    url: 'https://www.meridianinfotechsolutions.in/sitemap',
+    url: 'https://meridianinfotechsolutions.in/sitemap',
   };
 
   return (

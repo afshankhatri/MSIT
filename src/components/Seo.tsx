@@ -9,7 +9,7 @@ interface SeoProps {
   noindex?: boolean;
 }
 
-const SITE_ORIGIN = 'https://www.meridianinfotechsolutions.in';
+const SITE_ORIGIN = 'https://meridianinfotechsolutions.in';
 
 function setMetaContent(el: HTMLMetaElement, content: string) {
   if (el.content !== content) {

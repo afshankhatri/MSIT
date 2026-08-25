@@ -17,7 +17,7 @@ export default function LocationsPage() {
         '@type': 'Place',
         name: l.name,
         address: l.address,
-        url: `https://www.meridianinfotechsolutions.in/locations/${l.slug}`,
+        url: `https://meridianinfotechsolutions.in/locations/${l.slug}`,
       },
     })),
   };

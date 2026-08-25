@@ -17,7 +17,7 @@ export default function ServicesPage() {
         '@type': 'Service',
         name: s.title,
         description: s.summary,
-        url: `https://www.meridianinfotechsolutions.in/services/${s.slug}`,
+        url: `meridianinfotechsolutions.in/services/${s.slug}`,
       },
     })),
   };
@@ -103,7 +103,6 @@ export default function ServicesPage() {
           ))}
         </div>
       </section>
-
       <CtaSection />
     </>
   );
