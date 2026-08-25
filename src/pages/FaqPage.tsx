@@ -1,17 +1,45 @@
 import { Seo } from '@/components/Seo';
 import { PageHeader } from '@/components/PageHeader';
 import { FaqAccordion } from '@/components/FaqAccordion';
-import { CtaSection } from '@/components/CtaSection';
-import { generalFaqs } from '@/data/faqs';
+
+const faqs = [
+  {
+    q: 'Do you repair all laptop brands?',
+    a: 'Yes, we service Dell, HP, Lenovo, Apple, ASUS, Acer, MSI, and most other brands. Bring your device in for a free diagnostic.',
+  },
+  {
+    q: 'How long does a typical repair take?',
+    a: 'Most repairs take 24-48 hours. Complex motherboard repairs may take 3-5 days. We will give you an exact timeline after diagnosis.',
+  },
+  {
+    q: 'Do you offer a warranty on repairs?',
+    a: 'Yes, all repairs come with a 90-day warranty covering both parts and labor for the specific issue addressed.',
+  },
+  {
+    q: 'What payment methods do you accept?',
+    a: 'We accept cash, card, UPI, and bank transfer. Flexible payment terms available for corporate clients.',
+  },
+  {
+    q: 'Do you offer on-site service for businesses?',
+    a: 'Yes. We provide on-site support for businesses with multiple computers. Contact us to discuss your requirements.',
+  },
+  {
+    q: 'What is an AMC?',
+    a: 'An Annual Maintenance Contract (AMC) is a yearly agreement that covers scheduled maintenance, priority support, and discounted repairs for your IT infrastructure.',
+  },
+];
 
 export default function FaqPage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: generalFaqs.map((f) => ({
+    mainEntity: faqs.map(faq => ({
       '@type': 'Question',
-      name: f.q,
-      acceptedAnswer: { '@type': 'Answer', text: f.a },
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
     })),
   };
 
@@ -19,28 +47,23 @@ export default function FaqPage() {
     <>
       <Seo
         title="FAQ — Frequently Asked Questions"
-        description="Find answers to common questions about our IT services, repairs, AMC contracts, refurbished devices, e-waste management, and more."
+        description="Get answers to common questions about our IT repair, maintenance, and support services at Meridian InfoTech Solutions."
         canonicalPath="/faq"
         jsonLd={jsonLd}
       />
 
       <PageHeader
         label="FAQ"
-        title={<>Questions? <span className="text-gradient">We have answers.</span></>}
-        description="Everything you need to know about our services, repairs, warranties, and how we work. Can't find what you're looking for? Just reach out."
+        title={<>Frequently Asked <span className="text-gradient">Questions</span></>
+        description="Find quick answers to common questions about our services, repairs, warranties, and support."
         crumbs={[{ label: 'FAQ' }]}
       />
 
       <section className="container-px py-16">
-        <div className="mx-auto max-w-3xl">
-          <FaqAccordion items={generalFaqs} />
+        <div className="mx-auto max-w-2xl">
+          <FaqAccordion items={faqs} />
         </div>
       </section>
-
-      <CtaSection
-        title="Still have questions?"
-        description="Our team is happy to help. Reach out and we will get back to you with the answers you need."
-      />
     </>
   );
 }
