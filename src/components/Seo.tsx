@@ -26,6 +26,13 @@ function renderJsonLd(serializedData: string) {
   return script;
 }
 
+/**
+ * Seo component for managing per-route SEO metadata.
+ * Works with both client-side SPA navigation AND static pre-rendering (vite-ssg).
+ * 
+ * For SSG: Metadata is injected into the <head> during build time by vite-ssg hooks.
+ * For SPA: useEffect updates meta tags dynamically for client-side navigation.
+ */
 export function Seo({
   title,
   description,
